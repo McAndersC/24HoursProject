@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch src/scss/main.scss build/public/index.css"
+    "sass": "sass --watch src/scss/main.scss build/public/index.css",
+    "js": "rollup src/js/index.js -f cjs -o build/public/index.js --watch",
+    "develop" : "concurrently --kill-others \"npm run sass\" \"npm run js\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/McAndersC/24HoursProject#readme",
   "dependencies": {
+    "rollup": "^2.71.1",
     "sass": "^1.51.0"
   },
   "devDependencies": {

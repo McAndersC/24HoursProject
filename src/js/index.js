@@ -1,5 +1,3 @@
-'use strict';
-
 const templates = {};
 
 templates.template01 = (moment) => { 
@@ -21,7 +19,7 @@ templates.template01 = (moment) => {
             </div>
         </section>
     `
-};
+}
 
 templates.template02 = (moment) => {
     return `
@@ -32,7 +30,7 @@ templates.template02 = (moment) => {
         </div>
     </section>
     `
-};
+}
 
 templates.template03 = (moment) => {
     return `
@@ -43,7 +41,7 @@ templates.template03 = (moment) => {
         </div>
     </section>
     `
-};
+}
 
 templates.subpageHeaderTemplate = (moment) => 
     `
@@ -67,10 +65,10 @@ templates.subpageHeaderTemplate = (moment) =>
             </div>
         </div>
         </section>
-    `;
+    `
 
 // Navigation
-const navigation = {};
+const navigation = {}
 navigation.init = () => {
 
     const navigation = document.querySelector('.navigation');
@@ -82,7 +80,7 @@ navigation.init = () => {
     <a href="/build/moments/moment_tmpl.html">Moment Tmpl</a>
     <a href="/build/moments/11-30-tidligt-i-seng.html">11-30-tidligt-i-seng</a>
     <a href="/build/moments/12-30-natur-er-dejligt.html">12-30-natur-er-dejligt</a>
-    `;
+    `
     let currentScrollValue = 0;
 
     const toggleActiveNavigation = () => {
@@ -93,22 +91,22 @@ navigation.init = () => {
         if(compareValue < 0) {
 
             if(!navigation.classList.contains('hide')) {
-                navigation.classList.add('hide');
-                navigation.classList.remove('active');
+                navigation.classList.add('hide')
+                navigation.classList.remove('active')
             }
             
         } else if(compareValue > 0) {
 
             if(navigation.classList.contains('hide')) {
 
-                navigation.classList.remove('hide');
+                navigation.classList.remove('hide')
 
             }
         }
 
         currentScrollValue = newScrollValue;
         
-    };
+    }
 
     // Scroll Event til Navigationen
     window.addEventListener('scroll', toggleActiveNavigation);
@@ -118,7 +116,7 @@ navigation.init = () => {
         e.preventDefault();
         navigation.classList.toggle('active');
     });
-};
+}
 
 
 // Moments Render
@@ -136,33 +134,33 @@ moments.renderMoment = (moment) => {
     
             case '01':
 
-                momentContainer.insertAdjacentHTML('beforeend', templates.template01(moment, template));
+                momentContainer.insertAdjacentHTML('beforeend', templates.template01(moment, template))
 
                 break;
 
             case '02':
 
-                momentContainer.insertAdjacentHTML('beforeend', templates.template02(moment, template));
+                momentContainer.insertAdjacentHTML('beforeend', templates.template02(moment, template))
 
                 break;
 
             case '03':
 
-                momentContainer.insertAdjacentHTML('beforeend', templates.template03(moment, template));
+                momentContainer.insertAdjacentHTML('beforeend', templates.template03(moment, template))
 
                 break;
         }
-    });
+    })
 
 
-};
+}
 
 // Moments Initializing
 moments.init = async () => {
 
     try {
 
-        let tempPrefix = window.location.pathname.length > 8 ? '../' : '';
+        let tempPrefix = window.location.pathname.length > 8 ? '../' : ''
 
         const momentsResult = await fetch(tempPrefix + 'public/data/moments.json').then((response) => response.json()).then((response) => {
             return response;
@@ -186,10 +184,10 @@ moments.init = async () => {
 
     } catch (error) {
 
-        console.error(error);
+        console.error(error)
     }
 
-};
+}
 
 
 
@@ -204,6 +202,6 @@ application.init = () => {
     navigation.init();
     moments.init();
 
-};
+}
 
 window.addEventListener('load', application.init());
