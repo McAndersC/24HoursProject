@@ -1,2 +1,6 @@
 /node_modules/
 .vscode
+
+/build/public/index.css
+/build/public/index.css.map
+/build/public/index.js
