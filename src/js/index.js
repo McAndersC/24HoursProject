@@ -1,5 +1,6 @@
 const templates = {};
 
+
 templates.template01 = (moment) => { 
     return `
         <section class="threexfour fadeInUp">
