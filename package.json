@@ -1,0 +1,27 @@
+{
+  "name": "24hoursproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss/main.scss build/public/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McAndersC/24HoursProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McAndersC/24HoursProject/issues"
+  },
+  "homepage": "https://github.com/McAndersC/24HoursProject#readme",
+  "dependencies": {
+    "sass": "^1.51.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  }
+}

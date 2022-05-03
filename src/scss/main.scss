@@ -1,0 +1,15 @@
+@import "_variables";
+@import "_base";
+@import "_footer";
+@import "_header";
+@import "_navigation";
+@import "_templates";
+
+.temp-content {
+  
+    color: #fff;
+    padding: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

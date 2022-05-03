@@ -1,0 +1,127 @@
+/* Genereic Stuff */
+// * {
+//     margin: 0;
+//     box-sizing: border-box;
+// }
+body {
+    // height: 200vh;
+    // background-color: black;
+}
+
+
+
+
+/* Static Stuff */
+.one-day-viborg-container {
+    // width: 75vw;
+    // overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: black;
+}
+.text-container {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    background-image: url("../public/assets/test_gif_4sec.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+.transparency-layer-one {
+    animation: transparencyLayer .1s .7s forwards;
+    background-color: black;
+    height: 17vw;
+}
+.one-day {
+    font-size: 17.3vw;
+    color: white;
+    opacity: 0%;
+    animation: oneDayAnimation 0.1s .7s forwards;
+    mix-blend-mode: multiply;
+    background-color: black;
+    height: 17vw;    
+}
+.transparency-layer-two {
+
+    animation: transparencyLayer .1s 2.2s forwards;
+    background-color: black;
+    height: 17vw;
+}
+.viborg {
+    padding-left: 1.4vw;
+    font-size: 14vw;
+    opacity: 0%;
+    animation: oneDayAnimation .1s 2.2s forwards;
+    background-color: black;
+    color: white;
+    height: 17vw;
+    mix-blend-mode: multiply;
+}
+
+
+/* Moving Boxes */
+.boxes-container {
+   position: absolute;
+    width: 75vw;
+    // height: 620px;
+    height: 560px;
+    overflow: hidden;
+    z-index: 2;
+}
+.one-day-box {
+    position: relative;
+    width: 0px;
+    height: 310px;
+    background-color: black;
+    animation: movingBoxes 1.5s cubic-bezier(.74, .06, .4, .92) forwards;
+}
+.viborg-box {
+    position: relative;
+    width: 0px;
+    height: 310px;
+    background-color: black;
+    animation: movingBoxes 1.5s 1.5s cubic-bezier(.74, .06, .4, .92) forwards;
+}
+
+
+
+
+
+/* Animations */
+@keyframes transparencyLayer {
+    from {background-color: black;}
+    to {background-color: transparent;}
+}
+
+@keyframes oneDayAnimation {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+@keyframes viborgAnimation {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+@keyframes movingBoxes {
+    0% {
+      width: 0%;
+      left: 0;
+
+    }
+    50% {
+      width: 100%;
+      left: 0;
+  
+    }
+    99.9% {height: 310px;
+    }
+    100% {
+      width: 0;
+      left: 100%;
+    
+    }
+  }
