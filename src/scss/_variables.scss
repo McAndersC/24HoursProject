@@ -1,6 +1,27 @@
+// Colors //#ebebeb
+$content-width : 76vw;
+
+// Prepage Variables
+$prepage-info-background-color : #6667a8;
+$prepage-info-text-color : #fff;
+$prepage-info-height : 40px;
+
 // Breakpoints
-$breakpoint_md : 767px;
+$breakpoint_sm : 380px;
+$breakpoint_md : 768px;
+$breakpoint_lg : 1024px;
 
 // Navigation
 $nav-height : 80px;
-$nav-background-color : rgb(30, 29, 29);
+$nav-background-color : black;
+$nav-text-color : white;
+
+// Headings
+$h1-font-size : 2.4rem;
+$h1-font-weight : 700;
+
+$p-font-size : 1.2rem;
+$p-font-weight : 300;
+
+// Footer
+$footer-link-color : #6667a8;

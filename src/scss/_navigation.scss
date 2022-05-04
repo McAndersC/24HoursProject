@@ -1,104 +1,109 @@
-.navigation {
+.nav {
 
     position: fixed;
     background-color: $nav-background-color;
-    transition: top 500ms ease-in-out;
-    top: 0;
+    height: $nav-height;
+    color: $nav-text-color;
     width: 100%;
     z-index: 210;
-    height: $nav-height;
-    
-    .nav-action {
-        position: absolute;
-        width: 100%;
-        height: $nav-height;
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        background-color: $nav-background-color;
+    top: 0;
+    transition: top 500ms ease-in-out;
 
-        .nav-burger {
-        
-            cursor: pointer;
-            font-size: 30px;
-            margin-right: 20px;
-            color: #fff;
-         
+    &.hide {
+        top: -$nav-height;
+    }
+
+    &.active {
+        .nav-content {
+            display: block;
         }
+    }
+
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: $content-width;
+        margin: auto auto;
+        height: $nav-height;
+    }
+
+    .nav-bar {
+
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    .nav-burger {
+
+        margin-right: 10px;
+        margin-top: 5px;
+
+    }
+
+    .nav-heading {
+        h1 {
+            font-size: 16px;
+            font-weight: 100;
+            color: $nav-text-color;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
     }
 
     .nav-content {
 
-        margin-top:-250px;
-        transition: margin-top 500ms ease-in-out;
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        color: #000;
+        min-width: 280px;
+        top: 15px;
+        right:15px;
+        padding: 10px;
         
-        a {
-            display: block;
-            color: #fff;
-            text-decoration: none;
-            background-color: #6667a8;
-            padding: 10px 10px;
+        .nav-content-close {
+            text-align: right;
+            cursor: pointer;
+        }
+   
 
-            &:hover {
+        .nav-links {
 
-                background-color: #000;
-                color: #fff;
-
+            :first-child {
+                margin-bottom: 20px;  
             }
-        }
-
-    }
-
-    &.hide {
-
-        top: -$nav-height;
-
-    }
-
-    &.active {
-        .nav-content {  
-
-            margin-top: $nav-height;
-
-        }
-    }
-
-
-    @media (min-width: $breakpoint_md) {
-        
-        .nav-action {
-
-            background-color: transparent;
-            pointer-events: none;
-
-        }
-        .nav-burger {
-
-            display: none;
-
-        }
-        .nav-content {  
-
-            margin-top: 0;
-            display: flex;
-            justify-content: right;
-            align-items: center;
-            height: $nav-height;
-            padding-right: 15px;
 
             a {
-                background-color: transparent;
+                display: block;
+                text-decoration: none;
+                color: #000;
+                // font-weight: 600;
+                margin: 3px 0;
             }
-     
         }
+    }
 
-        &.active {
-            .nav-content {  
-    
-                margin-top: 0;
-    
-            }
-        }
+    .nav-icon {
+
+        width: 28px;
+        margin-left : 5px;
+        margin-top: 5px;
+        cursor: pointer;
+        transition: transform 200ms ease-in-out;
+
         
+        &:hover {
+            &.share {
+                transform: scale(1.2);
+            }
+           
+        }
     }
 }

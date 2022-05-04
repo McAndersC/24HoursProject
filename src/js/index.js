@@ -1,6 +1,6 @@
+import mnsry from './msnry'
+
 const templates = {};
-
-
 templates.template01 = (moment) => { 
     return `
         <section class="threexfour fadeInUp">
@@ -72,51 +72,76 @@ templates.subpageHeaderTemplate = (moment) =>
 const navigation = {}
 navigation.init = () => {
 
-    const navigation = document.querySelector('.navigation');
-    const navigationContent = navigation.querySelector('.nav-content');
-    const navigationBurger = navigation.querySelector('.nav-burger');
+    const navigation = document.querySelector('.nav');
 
-    navigationContent.innerHTML = `
-    <a href="/build/">Forside</a><a href="/build/moments/moment.html">Moment</a>
-    <a href="/build/moments/moment_tmpl.html">Moment Tmpl</a>
-    <a href="/build/moments/11-30-tidligt-i-seng.html">11-30-tidligt-i-seng</a>
-    <a href="/build/moments/12-30-natur-er-dejligt.html">12-30-natur-er-dejligt</a>
-    `
-    let currentScrollValue = 0;
+    if(navigation) {
 
-    const toggleActiveNavigation = () => {
+        const navigationBurger = navigation.querySelector('.nav-burger');
+        const navigationTitle = navigation.querySelector('.nav-title');
+        const navigationClose = navigation.querySelector('.nav-content-close');
+        const navigationContent = navigation.querySelector('.nav-links');
 
-        let newScrollValue = window.pageYOffset;
-        let compareValue = currentScrollValue - newScrollValue;
+        navigationContent.innerHTML = `
+        <a href="/build/">Forside</a><a href="/build/moments/moment.html">Moment</a>
+        <a href="/build/moments/moment_tmpl.html">Moment Tmpl</a>
+        <a href="/build/moments/11-30-tidligt-i-seng.html">11-30-tidligt-i-seng</a>
+        <a href="/build/moments/12-30-natur-er-dejligt.html">12-30-natur-er-dejligt</a>
+    `  
+        // navigationContent.innerHTML = `
+        //     <a href="">Gå til billedoversigten</a>
+        //     <a href="">Om projektet ONE DAY VIBORG</a>
+        //     <a href="">Det historiske perspektiv</a>
+        // `
 
-        if(compareValue < 0) {
+        let currentScrollValue = 0;
+        const toggleActiveNavigation = () => {
 
-            if(!navigation.classList.contains('hide')) {
-                navigation.classList.add('hide')
-                navigation.classList.remove('active')
+            let newScrollValue = window.pageYOffset;
+            let compareValue = currentScrollValue - newScrollValue;
+
+            if(compareValue < 0) {
+
+                if(!navigation.classList.contains('hide')) {
+                    navigation.classList.add('hide')
+                    navigation.classList.remove('active')
+                }
+                
+            } else if(compareValue >= 0) {
+
+                if(navigation.classList.contains('hide')) {
+
+                    navigation.classList.remove('hide')
+
+                }
             }
-            
-        } else if(compareValue > 0) {
 
-            if(navigation.classList.contains('hide')) {
+            currentScrollValue = newScrollValue;
 
+            if(currentScrollValue === 0)
+            {
                 navigation.classList.remove('hide')
-
             }
+  
         }
 
-        currentScrollValue = newScrollValue;
-        
+        const activateNavigation = (e) => {
+            e.preventDefault();
+            navigation.classList.add('active');
+        }
+
+        const deActivateNavigation = (e) => {
+            e.preventDefault();
+            navigation.classList.remove('active');
+        }
+
+        // Scroll Event til Navigationen
+        window.addEventListener('scroll', toggleActiveNavigation);
+
+        // Click Event til Burger Menu i Navigationen
+        navigationBurger.addEventListener('click',activateNavigation);    
+        navigationTitle.addEventListener('click', activateNavigation);
+        navigationClose.addEventListener('click', deActivateNavigation);
     }
-
-    // Scroll Event til Navigationen
-    window.addEventListener('scroll', toggleActiveNavigation);
-
-    // Click Event til Navigationen
-    navigationBurger.addEventListener('click', (e) => {
-        e.preventDefault();
-        navigation.classList.toggle('active');
-    });
 }
 
 
@@ -161,7 +186,10 @@ moments.init = async () => {
 
     try {
 
-        let tempPrefix = window.location.pathname.length > 8 ? '../' : ''
+        console.log(window.location.pathname.indexOf('front.html'))
+
+
+        let tempPrefix = 'http://127.0.0.1:5500/build/'
 
         const momentsResult = await fetch(tempPrefix + 'public/data/moments.json').then((response) => response.json()).then((response) => {
             return response;
@@ -191,18 +219,16 @@ moments.init = async () => {
 }
 
 
-
-
 // Application
 const application = {};
 application.init = () => {
 
     console.log('Application init on load');
 
-    // Setting Up Navigation
     navigation.init();
     moments.init();
-
+    mnsry.init();
+    
 }
 
 window.addEventListener('load', application.init());

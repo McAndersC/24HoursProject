@@ -8,6 +8,9 @@ module.exports = {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "globals": {
+        "Masonry": true
+    },
     "rules": {
     }
 }
