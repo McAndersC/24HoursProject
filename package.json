@@ -8,7 +8,7 @@
     "sass": "sass --watch src/scss/main.scss build/public/index.css --style compressed",
     "js": "rollup src/js/index.js -f cjs -o build/public/index.js --watch",
     "tests": "rollup --config --watch",
-    "develop": "concurrently --kill-others \"npm run sass\" \"npm run js\""
+    "develop": "concurrently --kill-others \"npm run sass\" \"npm run tests\""
   },
   "repository": {
     "type": "git",
