@@ -81,17 +81,17 @@ navigation.init = () => {
         const navigationClose = navigation.querySelector('.nav-content-close');
         const navigationContent = navigation.querySelector('.nav-links');
 
-        navigationContent.innerHTML = `
-        <a href="/">Forside</a><a href="/moments/moment.html">Moment</a>
-        <a href="/moments/moment_tmpl.html">Moment Tmpl</a>
-        <a href="/moments/11-30-tidligt-i-seng.html">11-30-tidligt-i-seng</a>
-        <a href="/moments/12-30-natur-er-dejligt.html">12-30-natur-er-dejligt</a>
-    `  
         // navigationContent.innerHTML = `
-        //     <a href="">Gå til billedoversigten</a>
-        //     <a href="">Om projektet ONE DAY VIBORG</a>
-        //     <a href="">Det historiske perspektiv</a>
-        // `
+        // <a href="/">Forside</a><a href="/moments/moment.html">Moment</a>
+        // <a href="/moments/moment_tmpl.html">Moment Tmpl</a>
+        // <a href="/moments/11-30-tidligt-i-seng.html">11-30-tidligt-i-seng</a>
+        // <a href="/moments/12-30-natur-er-dejligt.html">12-30-natur-er-dejligt</a>
+    // `  
+        navigationContent.innerHTML = `
+            <a href="">Gå til billedoversigten</a>
+            <a href="">Om projektet ONE DAY VIBORG</a>
+            <a href="">Det historiske perspektiv</a>
+        `
 
         let currentScrollValue = 0;
         const toggleActiveNavigation = () => {
