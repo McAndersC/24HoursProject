@@ -1,0 +1,188 @@
+
+.prepage {
+    background-image: linear-gradient(
+        black,
+        black,
+        black,
+        black,
+        #ebebeb,  
+        #ebebeb,
+        #ebebeb,
+        black,
+        black,
+        black,
+        );
+        width: 100%;    
+}
+
+.prepage-content {
+
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 140px;
+    max-width: $content-width;
+
+    .h1{
+      
+        margin: auto;
+        color: #fff;
+        line-height: 1.2;
+        padding: 6rem 0 2rem 0;
+       
+        &.dark {
+            color : #000;
+        }
+        
+    }
+
+    .h1-fat{
+
+        font-weight: 300;
+
+    }
+}
+
+
+
+// Maso
+.grid-sizer {
+  width: 100%;
+}
+
+.gutter-sizer { 
+    width: 8px; 
+}
+
+.grid {
+
+    margin-bottom: 90px;
+}
+
+.grid-item {
+
+    position: relative;
+    float: left;
+    height: 190px;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 8px;
+
+    img {
+
+        display: block;
+        object-fit: cover;
+        height: 190px;
+        width: 100%;
+        z-index: 2;
+        transition: transform .5s ease;
+
+    }
+
+    .grid-item-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 25;
+        left : 0;
+        width : 100%;
+        height : $prepage-info-height;
+        position: absolute;
+        background-color: $prepage-info-background-color;
+        color:$prepage-info-text-color;
+        bottom: -$prepage-info-height px;
+        bottom: 0px;
+        transition: bottom 200ms ease-in-out;
+    
+    }
+
+    &:hover {
+         
+        .grid-item-info {
+
+            bottom : 0;
+     
+        }
+        img {
+
+            transform: scale(1.5);
+
+        }
+    
+    }
+
+
+    &.height2 {
+
+        height: 260px;
+        // background-color: aqua;
+
+        img {
+            height: 260px;
+        }
+
+    }
+
+    &.height3 {
+
+        // background-color: rgb(35, 126, 126);
+        height: 310px;
+        img {
+            height: 310px;
+        }
+    }
+
+}
+
+@media (min-width: $breakpoint_sm) and (max-width: $breakpoint_md) {
+    .grid-sizer {
+        width: 48%
+    }
+    
+    .grid-item {
+        width: 48%;
+    }
+}
+
+@media (min-width: $breakpoint_md) and (max-width: $breakpoint_lg) {
+    .grid-sizer {
+        width: 32%
+    }
+    
+    .grid-item {
+        width: 32%;
+    }
+}
+
+@media (min-width: $breakpoint_lg) {
+    .grid-sizer {
+        width: 19%
+    }
+    
+    .grid-item {
+        width: 19%;
+    }
+}
+
+// @media only screen and (max-device-width: $breakpoint_md) {
+//     .grid-sizer {
+//         width: 32%;
+//     }
+    
+//     .grid-item {
+//         width: 32%;
+//     }
+
+// }
+
+// @media only screen and (max-device-width: $breakpoint_lg) {
+    
+//     .grid-sizer {
+//         width: 19%;
+//     }
+    
+//     .grid-item {
+//         width: 19%;
+//     }
+
+// }
