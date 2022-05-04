@@ -1,3 +1,6 @@
+
+
+
 .nav {
 
     position: fixed;
@@ -8,6 +11,33 @@
     z-index: 210;
     top: 0;
     transition: top 500ms ease-in-out;
+
+    .nav-burger-dark {
+        display: none;
+    }
+
+    .nav-burger-dark {
+        display: none;
+    }
+
+    &.light {
+        background-color: beige;
+        color: #000;
+
+        .nav-heading {
+            h1{
+                color: #000;
+            }
+            
+        }
+        .nav-burger-light {
+            display: none;
+        }
+
+        .nav-burger-dark {
+            display: block;
+        }
+    }
 
     &.hide {
         top: -$nav-height;
@@ -71,6 +101,10 @@
         .nav-content-close {
             text-align: right;
             cursor: pointer;
+
+            object {
+                pointer-events: none;
+            }
         }
    
 
@@ -92,10 +126,9 @@
 
     .nav-icon {
 
-        width: 28px;
+        width: 26px;
         margin-left : 5px;
         margin-top: 5px;
-        cursor: pointer;
         transition: transform 200ms ease-in-out;
 
         
@@ -107,3 +140,4 @@
         }
     }
 }
+

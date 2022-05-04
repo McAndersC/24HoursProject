@@ -47,24 +47,24 @@ templates.template03 = (moment) => {
 templates.subpageHeaderTemplate = (moment) => 
     `
         <section class="hero">
-        <div class="container-75">
-            <div class="row">
-                <div class="col1">
-                    <img src="../public/assets/moments/${moment.id}/${moment.square}" alt="${moment.description}">
-                </div>
-                <div class="col2" style="width: 3vw;">
+            <div class="container-75">
+                <div class="row">
+                    <div class="col1">
+                        <img src="../public/assets/moments/${moment.id}/${moment.square}" alt="${moment.description}">
+                    </div>
+                    <div class="col2" style="width: 3vw;">
 
-                </div>
-                <div class="col3">
-                    <p class="time">${moment.time}</p>
-                    <h1 class="display-text">${moment.title}</h1>
-                    <div class="spacer"></div>
-                    <p class="body-text">${moment.description}</p>
-                    <div class="spacer"></div>
-                    <p class="byline">© Foto: ${moment.author}</p>
+                    </div>
+                    <div class="col3">
+                        <p class="time">${moment.time}</p>
+                        <h1 class="display-text">${moment.title}</h1>
+                        <div class="spacer"></div>
+                        <p class="body-text">${moment.description}</p>
+                        <div class="spacer"></div>
+                        <p class="byline">© Foto: ${moment.author}</p>
+                    </div>
                 </div>
             </div>
-        </div>
         </section>
     `
 
@@ -76,16 +76,16 @@ navigation.init = () => {
 
     if(navigation) {
 
-        const navigationBurger = navigation.querySelector('.nav-burger');
+        const navigationBurger = navigation.querySelectorAll('.nav-burger');
         const navigationTitle = navigation.querySelector('.nav-title');
         const navigationClose = navigation.querySelector('.nav-content-close');
         const navigationContent = navigation.querySelector('.nav-links');
 
         navigationContent.innerHTML = `
-        <a href="/build/">Forside</a><a href="/build/moments/moment.html">Moment</a>
-        <a href="/build/moments/moment_tmpl.html">Moment Tmpl</a>
-        <a href="/build/moments/11-30-tidligt-i-seng.html">11-30-tidligt-i-seng</a>
-        <a href="/build/moments/12-30-natur-er-dejligt.html">12-30-natur-er-dejligt</a>
+        <a href="/">Forside</a><a href="/moments/moment.html">Moment</a>
+        <a href="/moments/moment_tmpl.html">Moment Tmpl</a>
+        <a href="/moments/11-30-tidligt-i-seng.html">11-30-tidligt-i-seng</a>
+        <a href="/moments/12-30-natur-er-dejligt.html">12-30-natur-er-dejligt</a>
     `  
         // navigationContent.innerHTML = `
         //     <a href="">Gå til billedoversigten</a>
@@ -138,7 +138,12 @@ navigation.init = () => {
         window.addEventListener('scroll', toggleActiveNavigation);
 
         // Click Event til Burger Menu i Navigationen
-        navigationBurger.addEventListener('click',activateNavigation);    
+        navigationBurger.forEach((burger) => {
+            
+            burger.addEventListener('click',activateNavigation);  
+
+        })
+         
         navigationTitle.addEventListener('click', activateNavigation);
         navigationClose.addEventListener('click', deActivateNavigation);
     }
@@ -189,9 +194,9 @@ moments.init = async () => {
         console.log(window.location.pathname.indexOf('front.html'))
 
 
-        let tempPrefix = 'http://127.0.0.1:5500/build/'
+        let tempPrefix = '';
 
-        const momentsResult = await fetch(tempPrefix + 'public/data/moments.json').then((response) => response.json()).then((response) => {
+        const momentsResult = await fetch(tempPrefix + '/public/data/moments.json').then((response) => response.json()).then((response) => {
             return response;
         });
 
@@ -201,7 +206,8 @@ moments.init = async () => {
         {
             momentContainer.innerHTML = '';
 
-            let momentPageId = window.location.pathname.split('/')[3].replace('.html', '');
+            let momentPageId = window.location.pathname.split('/')[2].replace('.html', '');
+            console.log(momentPageId)
             
             let moment = momentsResult.find((moment) => moment.id === momentPageId);
             moments.renderMoment(moment);
@@ -228,6 +234,7 @@ application.init = () => {
     navigation.init();
     moments.init();
     mnsry.init();
+    
     
 }
 

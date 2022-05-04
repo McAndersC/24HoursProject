@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch src/scss/main.scss build/public/index.css --style compressed",
-    "js": "rollup src/js/index.js -f cjs -o build/public/index.js --watch",
-    "tests": "rollup --config --watch",
-    "develop": "concurrently --kill-others \"npm run sass\" \"npm run tests\""
+    "js": "rollup --config --watch",
+    "develop": "concurrently --kill-others \"npm run sass\" \"npm run js\"",
+    "serve": "node index"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/McAndersC/24HoursProject#readme",
   "dependencies": {
+    "express": "^4.18.1",
     "rollup": "^2.71.1",
     "rollup-plugin-babel-minify": "^10.0.0",
     "sass": "^1.51.0"

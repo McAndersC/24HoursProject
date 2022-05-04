@@ -75,24 +75,39 @@
         height: 190px;
         width: 100%;
         z-index: 2;
-        transition: transform .5s ease;
+        transition: transform 3s ease;
 
     }
 
-    .grid-item-info {
+    .grid-item-caption {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 25;
-        left : 0;
-        width : 100%;
-        height : $prepage-info-height;
+        justify-content: left;
+        flex-direction: column;
         position: absolute;
+        bottom: 0;
+        z-index: 25;
+        width : 100%;
         background-color: $prepage-info-background-color;
         color:$prepage-info-text-color;
-        bottom: -$prepage-info-height px;
+        padding: 6px 14px;
+      
+    }
+
+    bottom: 0;
+    .grid-item-info {
+
+        
+        // bottom: -$prepage-info-height;
         bottom: 0px;
         transition: bottom 200ms ease-in-out;
+
+        &.info-time {
+            font-weight: 700;
+        }
+
+        &.info-text {
+            color: #fff;
+        }       
     
     }
 

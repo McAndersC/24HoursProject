@@ -3,7 +3,10 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
-    "extends": "eslint:recommended",
+    "ignorePatterns": ["index.js", "/lib/server.js"],
+    "exclude" : {
+
+    },
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
