@@ -40,5 +40,52 @@
         ],
         "id": "18-30-test-af-template",
         "url": "/moments/18-30-test-af-template.html"
+    },
+    {
+        "title": "En god titel",
+        "time": "18:30",
+        "date": "2022-05-04",
+        "square": "01-rep.jpg",
+        "description": "En god beskrivelse 💪",
+        "author": "En forfatter ",
+        "id": "18-30-en-god-titel",
+        "url": "/moments/18-30-en-god-titel.html",
+        "templates": [
+            {
+                "template": "01",
+                "media": [
+                    {
+                        "image": "02-rep.jpg",
+                        "text": "Tekst 1"
+                    },
+                    {
+                        "image": "03-rep.jpg",
+                        "text": "Tekst 2"
+                    }
+                ]
+            },
+            {
+                "template": "01",
+                "media": [
+                    {
+                        "image": "02-rep.jpg",
+                        "text": "Tekst 3"
+                    },
+                    {
+                        "image": "05-rep.jpg",
+                        "text": "Tekst 4"
+                    }
+                ]
+            },
+            {
+                "template": "01",
+                "media": [
+                    {
+                        "image": "01-rep.jpg",
+                        "text": "Tekst 31"
+                    }
+                ]
+            }
+        ]
     }
 ]

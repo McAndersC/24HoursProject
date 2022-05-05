@@ -1,72 +1,5 @@
 import mnsry from './msnry'
-
-const templates = {};
-templates.template01 = (moment) => { 
-    return `
-        <section class="threexfour fadeInUp">
-            <div class="container-75">
-                <div class="row">
-                    <div class="col1">
-                        <img src="../public/assets/moments/${moment.id}/${moment.templates[0].media[0].image}" /> <!-- Variabler som skal tages ud fra Jason -->
-                        <p class="pic-text"><span class="square"></span>${moment.templates[0].media[0].text}</p>
-                    </div>
-                    <div class="col2" style="width: 1.6vw;">
-                    </div>
-                    <div class="col3">
-                        <img src="../public/assets/moments/${moment.id}/${moment.templates[0].media[1].image}" />
-                        <p class="pic-text"><span class="square"></span>${moment.templates[0].media[1].text}</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    `
-}
-
-templates.template02 = (moment) => {
-    return `
-    <section class="fourxthree">
-        <div class="container-75" style="margin: auto;">
-            <img src="../public/assets/moments/${moment.id}/${moment.templates[0].media[0].image}" />
-            <p class="pic-text"><span class="square"></span>${moment.templates[0].media[0].text}</p>
-        </div>
-    </section>
-    `
-}
-
-templates.template03 = (moment) => {
-    return `
-    <section class="onexone">
-        <div class="container-75">
-        <img src="../public/assets/moments/${moment.id}/${moment.templates[0].media[0].image}" /> 
-            <p class="pic-text"><span class="square"></span>${moment.templates[0].media[0].text}</p>
-        </div>
-    </section>
-    `
-}
-
-templates.subpageHeaderTemplate = (moment) => 
-    `
-        <section class="hero">
-            <div class="container-75">
-                <div class="row">
-                    <div class="col1">
-                        <img src="../public/assets/moments/${moment.id}/${moment.square}" alt="${moment.description}">
-                    </div>
-                    <div class="col2" style="width: 3vw;">
-
-                    </div>
-                    <div class="col3">
-                        <p class="time">${moment.time}</p>
-                        <h1 class="display-text">${moment.title}</h1>
-                        <div class="spacer"></div>
-                        <p class="body-text">${moment.description}</p>
-                        <div class="spacer"></div>
-                        <p class="byline">© Foto: ${moment.author}</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    `
+import templates from './templates'
 
 // Navigation
 const navigation = {}
@@ -148,6 +81,7 @@ navigation.init = () => {
         navigationClose.addEventListener('click', deActivateNavigation);
     }
 }
+console.log('Tests');
 
 
 // Moments Render
