@@ -81,7 +81,6 @@ navigation.init = () => {
         navigationClose.addEventListener('click', deActivateNavigation);
     }
 }
-console.log('Tests');
 
 
 // Moments Render
@@ -122,14 +121,17 @@ moments.init = async () => {
 
     try {
 
-        console.log(window.location.pathname.indexOf('front.html'))
-
-
         let tempPrefix = '';
 
-        const momentsResult = await fetch(tempPrefix + '/public/data/moments.json').then((response) => response.json()).then((response) => {
+        let momentsResult = await fetch(tempPrefix + '/public/data/moments.json').then((response) => response.json()).then((response) => {
             return response;
         });
+
+        momentsResult = momentsResult.sort(({ time: a }, {time: b }) => a > b ? 1 : a < b ? -1 : 0);
+
+        console.log('Moments Loaded:', momentsResult)
+
+
 
         // Moment Container
         let momentContainer = document.querySelector('.moment-container');
@@ -138,13 +140,8 @@ moments.init = async () => {
             momentContainer.innerHTML = '';
 
             let momentPageId = window.location.pathname.split('/')[2].replace('.html', '');
-            console.log(momentPageId)
-            
             let moment = momentsResult.find((moment) => moment.id === momentPageId);
             moments.renderMoment(moment);
-
-            console.log(momentPageId);
-            console.log(momentsResult.length, moment);
 
         }
 
@@ -160,12 +157,9 @@ moments.init = async () => {
 const application = {};
 application.init = () => {
 
-    console.log('Application init on load');
-
     navigation.init();
     moments.init();
     mnsry.init();
-    mnsry.dyn();
     
     
 }

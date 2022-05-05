@@ -11,10 +11,12 @@ templates.template01 = (moment, template) => {
                     </div>
                     <div class="col2" style="width: 1.6vw;">
                     </div>
+                    ${template.media.length === 1 ? '' : `
                     <div class="col3">
                         <img src="../public/assets/moments/${moment.id}/${template.media[1].image}" />
                         <p class="pic-text"><span class="square"></span>${template.media[1].text}</p>
-                    </div>
+                    </div>`}
+                   
                 </div>
             </div>
         </section>
