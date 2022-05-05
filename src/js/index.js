@@ -17,7 +17,7 @@ navigation.init = () => {
         // navigationContent.innerHTML = `
         // <a href="/">Forside</a><a href="/moments/moment.html">Moment</a>
         // <a href="/moments/moment_tmpl.html">Moment Tmpl</a>
-        // <a href="/moments/11-30-tidligt-i-seng.html">11-30-tidligt-i-seng</a>
+        // <a href="/moments/18-30-en-god-titel.html">18-30-en-god-titel</a>
         // <a href="/moments/12-30-natur-er-dejligt.html">12-30-natur-er-dejligt</a>
     // `  
         navigationContent.innerHTML = `
@@ -90,9 +90,6 @@ moments.renderMoment = (moment) => {
 
     let momentContainer = document.querySelector('.moment-container');
     momentContainer.insertAdjacentHTML('beforeend', templates.subpageHeaderTemplate(moment));
-
-  
-
     moment.templates.forEach((template) => {
 
         switch (template.template) {
@@ -168,6 +165,7 @@ application.init = () => {
     navigation.init();
     moments.init();
     mnsry.init();
+    mnsry.dyn();
     
     
 }
