@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch src/scss/main.scss build/public/index.css --style compressed",
-    "js": "rollup --config --watch",
-    "develop": "concurrently --kill-others \"npm run sass\" \"npm run js\"",
-    "serve": "node index",
-    "start": "concurrently --kill-others \"npm run develop\" \"npm run serve\""
+    "develop-sass": "sass src/scss/main.scss build/public/index.css --watch",
+    "develop-js": "rollup --config --environment NODE_ENV:development --watch",
+    "production-sass": "sass src/scss/main.scss build/public/index.css --style compressed",
+    "production-js": "rollup --config --environment NODE_ENV:production",
+    "production-build": "concurrently --kill-others \"npm run production-js\" \"npm run production-sass\"",
+    "start-serve": "node index",
+    "start-scripting": "concurrently --kill-others \"npm run develop-sass\" \"npm run develop-js\""
   },
   "repository": {
     "type": "git",
