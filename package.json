@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "develop-sass": "sass src/scss/main.scss build/public/index.css --watch",
+    "develop-sass": "sass src/scss/main.scss build/public/index.css --watch", 
     "develop-js": "rollup --config --environment NODE_ENV:development --watch",
     "production-sass": "sass src/scss/main.scss build/public/index.css --style compressed",
     "production-js": "rollup --config --environment NODE_ENV:production",
