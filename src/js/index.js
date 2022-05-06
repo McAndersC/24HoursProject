@@ -14,12 +14,57 @@ navigation.init = () => {
         const navigationClose = navigation.querySelector('.nav-content-close');
         const navigationContent = navigation.querySelector('.nav-links');
 
-        // navigationContent.innerHTML = `
-        // <a href="/">Forside</a><a href="/moments/moment.html">Moment</a>
-        // <a href="/moments/moment_tmpl.html">Moment Tmpl</a>
-        // <a href="/moments/18-30-en-god-titel.html">18-30-en-god-titel</a>
-        // <a href="/moments/12-30-natur-er-dejligt.html">12-30-natur-er-dejligt</a>
-    // `  
+        const socialActions = navigation.querySelectorAll('.social-action');
+
+        if(socialActions) {
+
+        
+
+            socialActions.forEach((action) => {
+                
+                const current_url = window.location.href;
+                let window_size = "width=565,height=569";
+
+                switch (action.dataset.action) {
+                    case 'fb':
+                            action.addEventListener('click', () => {
+
+                                let fb_shareUrl = "https://www.facebook.com/sharer/sharer.php?u="+ current_url;
+                               
+                                window.open(fb_shareUrl,"","menubar=no,resizeable=yes,scrollbars=yes,"+window_size);
+                                return false;
+                            });
+                        break;
+                        
+                    case 'insta':
+                            action.addEventListener('click', () => {
+                                let tw_shareUrl = "https://instagram.com/share?url=" + current_url;
+                          
+                                window.open(tw_shareUrl,"","menubar=no,resizeable=yes,scrollbars=yes,"+window_size);
+                                return false;
+                            });
+                        break;               
+                    
+                    case 'linkedIn':
+                            action.addEventListener('click', () => {
+                                let lnk_shareUrl = "https://www.linkedin.com/share?url=" + current_url;
+                          
+                                window.open(lnk_shareUrl,"","menubar=no,resizeable=yes,scrollbars=yes,"+window_size);
+                                return false;
+                            });
+                        break;
+                
+                    default:
+                        break;
+                }
+                console.log('action', action.dataset.action)
+
+            });
+
+        }
+      
+
+
         navigationContent.innerHTML = `
             <a href="">Gå til billedoversigten</a>
             <a href="">Om projektet ONE DAY VIBORG</a>
