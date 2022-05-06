@@ -148,6 +148,12 @@
         transition: transform 200ms ease-in-out;
         position: relative;
         
+        &.share {
+
+            margin-right : 15px;
+            
+        }
+
         &:hover {
             &.share {
                 .nav-share-pop {
