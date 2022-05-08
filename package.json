@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "develop-sass": "sass src/scss/main.scss build/public/index.css --watch", 
+    "develop-sass": "sass src/scss/main.scss build/public/index.css --watch",
     "develop-js": "rollup --config --environment NODE_ENV:development --watch",
     "production-sass": "sass src/scss/main.scss build/public/index.css --style compressed",
     "production-js": "rollup --config --environment NODE_ENV:production",
     "production-build": "concurrently --kill-others \"npm run production-js\" \"npm run production-sass\"",
-    "start-serve": "node index",
+    "start-server": "node index",
     "start-scripting": "concurrently --kill-others \"npm run develop-sass\" \"npm run develop-js\""
   },
   "repository": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/McAndersC/24HoursProject#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "rollup": "^2.71.1",
     "rollup-plugin-babel-minify": "^10.0.0",

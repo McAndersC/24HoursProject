@@ -1,40 +1,60 @@
-/* Genereic Stuff */
-// * {
-//     margin: 0;
-//     box-sizing: border-box;
-// }
-body {
-    // height: 200vh;
-    // background-color: black;
+
+
+.one-day-viborg-container {
+
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
+.width-setting-box {
 
-
-
-/* Static Stuff */
-.one-day-viborg-container {
-    // width: 75vw;
-    // overflow: hidden;
-    height: 100vh;
+    width: 75vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    background-color: black;
 }
+
+/* Text container */
 .text-container {
-    font-family: 'Rubik', sans-serif;
+
     font-weight: 700;
-    background-image: url("../public/assets/test_gif_4sec.gif");
+    background-image: url(/public//assets/test_gif_4sec.gif);
+    background-color: white;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-  }
-.transparency-layer-one {
-    animation: transparencyLayer .1s .7s forwards;
+
+}
+
+
+
+/* Transparency layers */
+.transparency-layer-desktop-one {
+    animation: transparencyLayer 0s .8s forwards;
     background-color: black;
     height: 17vw;
 }
+.transparency-layer-viborg {
+    animation: transparencyLayer 0s 2.3s forwards;
+    background-color: black;
+    height: 17vw;
+}
+
+
+/* Text */
+        /* Mobile divs */
+        .one {
+            display: none;
+        }
+        .day {
+            display: none;
+        }
+
 .one-day {
     font-size: 17.3vw;
     color: white;
@@ -43,12 +63,6 @@ body {
     mix-blend-mode: multiply;
     background-color: black;
     height: 17vw;    
-}
-.transparency-layer-two {
-
-    animation: transparencyLayer .1s 2.2s forwards;
-    background-color: black;
-    height: 17vw;
 }
 .viborg {
     padding-left: 1.4vw;
@@ -66,36 +80,180 @@ body {
 .boxes-container {
    position: absolute;
     width: 75vw;
-    // height: 620px;
-    height: 560px;
-    overflow: hidden;
-    z-index: 2;
+    height: 36vw;
 }
 .one-day-box {
     position: relative;
-    width: 0px;
-    height: 310px;
+    height: 18vw;
     background-color: black;
     animation: movingBoxes 1.5s cubic-bezier(.74, .06, .4, .92) forwards;
 }
 .viborg-box {
+    width: 0;
     position: relative;
-    width: 0px;
-    height: 310px;
+    height: 18vw;
     background-color: black;
     animation: movingBoxes 1.5s 1.5s cubic-bezier(.74, .06, .4, .92) forwards;
 }
 
 
+/* Bottom text */
+.cover-bottom-text {
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 3vw;
+    width: 75vw;
+    position: relative;
+    overflow: hidden;
+}
+.cover-bottom-text-p {
+    font-size: 20px;
+    width: 75vw;
+}
+
+
+/* Moving box botttom text*/
+.bottom-text-bottom-box{
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    top: 0px;
+    animation: bottomTextBoxSide .5s 4s forwards ease-in;
+}
+
+/* Arrow */
+.arrow {
+    position: absolute;
+    bottom: 10px;
+    width: 50px;
+    opacity: 0;
+    animation: arrowFadeIn 1s  5s forwards;
+}
+#arrow-img {
+    transition: 1.5s;
+}
 
 
 
-/* Animations */
+
+
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+
+
+    /* Transparency layers */
+    .transparency-layer-desktop-one {
+        display: none;
+    }
+    .transparency-layer-mobile-one {
+        animation: transparencyLayer 0s 1s forwards;
+        background-color: black;
+        height: 24vw;
+    }
+    .transparency-layer-mobile-day {
+        animation: transparencyLayer 0s 2s forwards;
+        background-color: black;
+        height: 24vw;
+    }
+    .transparency-layer-viborg {
+        animation: transparencyLayer 0s 3s forwards;
+        background-color: black;
+        height: 19vw;
+    }
+
+    /* Cover text mobile */
+    .text-container {
+        height: 67vw;
+      }
+    .one-day {
+        display: none;
+    }
+
+    .one {
+        display: block;
+        font-size: 24vw;
+        animation: oneDayAnimation 0s .7s forwards;
+        height: 24vw;  
+        background-color: black;
+        color: white; 
+        mix-blend-mode: multiply;
+    }
+    .day {
+        display: block;
+        font-size: 24vw;
+        animation: oneDayAnimation 0s .7s forwards;
+        height: 24vw; 
+        background-color: black;
+        color: white; 
+        mix-blend-mode: multiply;
+    }
+    .viborg {
+        font-size: 19vw;
+        padding-left: 1.4vw;
+        animation: oneDayAnimation 0s .7s forwards;
+        height: 19vw; 
+    }
+
+
+    /* Moving boxes mobile  */
+    .boxes-container {
+         height: 67vw;
+         overflow: hidden;
+
+     }
+    .one-day-box {
+        display: none;
+    }
+    .one-box {
+        position: relative;
+        width: 0px;
+        height: 24vw;
+        background-color: black;
+        animation: movingBoxesMobile 1s .5s cubic-bezier(.74, .06, .4, .92) forwards;
+    }
+    .day-box {
+        position: relative;
+        width: 0px;
+        height: 24vw;
+        background-color: black;
+        animation: movingBoxesMobile 1s 1.5s cubic-bezier(.74, .06, .4, .92) forwards;
+    }
+    .viborg-box {
+        height: 24vw;
+        background-color: black;
+        animation: movingBoxesMobile 1s 2.5s cubic-bezier(.74, .06, .4, .92) forwards;
+    }
+    
+    /* Bottom text mobile */
+    .cover-bottom-text {
+        margin-bottom: 15vw;
+    }
+    .cover-bottom-text-p {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+    .bottom-text-bottom-box{
+        height: 100px;
+    }
+    /* Arrow mobile */
+    .arrow {
+        bottom: 10px;
+        width: 40px;
+        }
+}
+
+
+
+/* Transparency animation */
 @keyframes transparencyLayer {
     from {background-color: black;}
     to {background-color: transparent;}
 }
 
+
+/* Cover text animation */
 @keyframes oneDayAnimation {
     from {opacity: 0%;}
     to {opacity: 100%;}
@@ -105,23 +263,50 @@ body {
     from {opacity: 0%;}
     to {opacity: 100%;}
 }
+/* Moving boxes animation */
 
 @keyframes movingBoxes {
     0% {
       width: 0%;
       left: 0;
-
     }
     50% {
       width: 100%;
       left: 0;
-  
     }
-    99.9% {height: 310px;
+    99.9% {height: 18vw;
     }
     100% {
       width: 0;
       left: 100%;
-    
     }
   }
+@keyframes movingBoxesMobile {
+    0% {
+      width: 0%;
+      left: 0;
+    }
+    50% {
+      width: 130%;
+      left: 0;
+    }
+    99.9% {height: 24vw;
+    }
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+
+/* Text Animation */
+@keyframes bottomTextBoxSide {
+    from {left: 0;}
+    to {left: 100vw;}
+}
+
+/* Arrow Animation */
+@keyframes arrowFadeIn {
+    from { opacity: 0;}
+    to {opacity: 100;}
+    
+}

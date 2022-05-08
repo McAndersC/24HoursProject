@@ -51,8 +51,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: $content-width;
-        margin: auto auto;
+        margin: auto 5px;
         height: $nav-height;
 
     }
@@ -115,6 +114,7 @@
         padding: 10px;
         
         .nav-content-close {
+            
             text-align: right;
             cursor: pointer;
 
@@ -162,6 +162,13 @@
                 
             }
            
+        }
+    }    
+
+    @media (min-width: $breakpoint_sm) {
+        .nav-wrapper {
+            width: $content-width;
+            margin: auto auto;
         }
     }
 }

@@ -18,8 +18,6 @@ navigation.init = () => {
 
         if(socialActions) {
 
-        
-
             socialActions.forEach((action) => {
                 
                 const current_url = window.location.href;
@@ -175,8 +173,6 @@ moments.init = async () => {
         momentsResult = momentsResult.sort(({ time: a }, {time: b }) => a > b ? 1 : a < b ? -1 : 0);
 
         console.log('Moments Loaded:', momentsResult)
-
-
 
         // Moment Container
         let momentContainer = document.querySelector('.moment-container');

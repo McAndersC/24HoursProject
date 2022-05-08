@@ -12,9 +12,7 @@ msnry.init = async () => {
 
     try {
 
-        let tempPrefix = '';
-
-        const stubData = await fetch(tempPrefix + '/public/data/timeline.json').then((response) => response.json()).then((response) => {
+        const stubData = await fetch('/public/data/timeline.json').then((response) => response.json()).then((response) => {
             return response;
         });
 

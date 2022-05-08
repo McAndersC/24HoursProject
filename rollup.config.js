@@ -8,10 +8,8 @@ import livereload from 'rollup-plugin-livereload'
 export default {
     input: 'src/js/index.js',
     plugins: [
-        minify( {
-            // Options for babel-minify.
-        } ),
-        devMode ? livereload({delay: 100}) : null
+        devMode ? false : minify( {} ),
+        devMode ? livereload({delay: 100}) : false
     ],
     output: {
       file: 'build/public/index.js',
