@@ -159,6 +159,8 @@ moments.renderMoment = (moment) => {
 
 }
 
+console.log('Hello World dassadsadasd')
+
 // Moments Initializing
 moments.init = async () => {
 
