@@ -12,7 +12,7 @@ msnry.init = async () => {
 
     try {
 
-        const stubData = await fetch('/public/data/timeline.json').then((response) => response.json()).then((response) => {
+        const timelineData = await fetch('/public/data/timeline.json').then((response) => response.json()).then((response) => {
             return response;
         });
 
@@ -22,18 +22,18 @@ msnry.init = async () => {
         const slotTemplate = (slot) => {
             return `<section>
             <h1 class="h1 ${slot.theme}">${slot.period} <span class="h1-fat">${slot.title}</span></h1>
-                <div class="grid ${slot.id}">
-                    <div class="grid-sizer"></div>
-                    <div class="gutter-sizer"></div>
+                <div class="grid-prepage ${slot.id}">
+                    <div class="grid-prepage-sizer"></div>
+                    <div class="gutter-prepage-sizer"></div>
                     ${slot.slots.map( (timesalot) => {
                         return `
-                            <div class="grid-item ${timesalot.size}">
+                            <div class="grid-prepage-item ${timesalot.size}">
                                 <a href="${timesalot.url}">
                                     <div class="grid-item-caption">
                                         <div class="grid-item-info info-time">${timesalot.time}</div>
                                         <div class="grid-item-info info-text">${timesalot.text}</div>
                                     </div>
-                                    <img src="public/assets/moments/${timesalot.asset}" />
+                                    <img src="../public/assets/moments/${timesalot.asset}" />
                                 </a>
                             </div>
                         `
@@ -43,20 +43,20 @@ msnry.init = async () => {
         }
     
     
-        stubData.forEach((slot) => {
+        timelineData.forEach((slot) => {
     
     
             prepage.insertAdjacentHTML('beforeend', slotTemplate(slot))
     
         })
     
-        stubData.forEach((slot) => {
+        timelineData.forEach((slot) => {
     
-            new Masonry( '.' + slot.id, {
-                itemSelector: '.grid-item',
+            const prepageMasonry = new Masonry( '.' + slot.id, {
+                itemSelector: '.grid-prepage-item',
                 // use element for option
-                columnWidth: '.grid-sizer',
-                gutter: '.gutter-sizer',
+                columnWidth: '.grid-prepage-sizer',
+                gutter: '.gutter-prepage-sizer',
                 percentPosition: true
                 // columnWidth: 80
             }).layout();
@@ -67,67 +67,7 @@ msnry.init = async () => {
 
         console.error(error)
     }
-    let stubData = [
-        {
-            "period" : "03:00 - 06:00",
-            "title" : "NAT I VIBORG",
-            "id" : "slot01",
-            "slots" : [
-                {
-                    "url" : "moments/18-30-en-god-titel.html",
-                    "asset" : "3_4_03.jpg",
-                    "size" : "height1",
-                    "time" : "11:30",
-                    "text" : "En lille tekst der kan gå på to linjer"
-                },
-                {
-                    "url" : "moments/18-30-en-god-titel.html",
-                    "asset" : "3_4_03.jpg",
-                    "size" : "height2",
-                    "time" : "11:30",
-                    "text" : "En lille tekst der kan gå på to linjer"
-                },
-                {
-                    "url" : "moments/18-30-en-god-titel.html",
-                    "asset" : "3_4_03.jpg",
-                    "size" : "height3",
-                    "time" : "11:30",
-                    "text" : "En lille tekst der kan gå på to linjer"
-                }
-            ]
-        },
-        {
-            "period" : "06:00 - 09:00",
-            "title" : "Ikke NAT I VIBORG",
-            "id" : "slot02",
-            "slots" : [
-                {
-                    "url" : "moments/18-30-en-god-titel.html",
-                    "asset" : "3_4_03.jpg",
-                    "size" : "height3",
-                    "time" : "11:30",
-                    "text" : "En lille tekst der kan gå på to linjer"
-                },
-                {
-                    "url" : "moments/18-30-en-god-titel.html",
-                    "asset" : "3_4_03.jpg",
-                    "size" : "height2",
-                    "time" : "11:30",
-                    "text" : "En lille tekst der kan gå på to linjer"
-                },
-                {
-                    "url" : "moments/18-30-en-god-titel.html",
-                    "asset" : "3_4_03.jpg",
-                    "size" : "height1",
-                    "time" : "11:30",
-                    "text" : "En lille tekst der kan gå på to linjer"
-                }
-            ]
-        }
-    ];
 
-
- 
 }
 
 

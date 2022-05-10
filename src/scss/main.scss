@@ -5,6 +5,9 @@
 @import "_navigation";
 @import "_templates";
 @import "_prepage";
+@import "_history";
+@import "_credits";
+@import "_about";
 
 .temp-content {
   
@@ -13,4 +16,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.sub-page {
+    padding: 80px 0;
 }

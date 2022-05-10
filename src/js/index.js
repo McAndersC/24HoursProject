@@ -1,5 +1,7 @@
 import mnsry from './msnry'
 import templates from './templates'
+import credits from './credits'
+import about from './about'
 
 // Navigation
 const navigation = {}
@@ -55,7 +57,6 @@ navigation.init = () => {
                     default:
                         break;
                 }
-                console.log('action', action.dataset.action)
 
             });
 
@@ -64,9 +65,10 @@ navigation.init = () => {
 
 
         navigationContent.innerHTML = `
-            <a href="">Gå til billedoversigten</a>
-            <a href="">Om projektet ONE DAY VIBORG</a>
-            <a href="">Det historiske perspektiv</a>
+            <a href="/">Gå til billedoversigten</a>
+            <a href="/om/">Om projektet ONE DAY VIBORG</a>
+            <a href="/historie/det-historiske-perspektiv.html">Det historiske perspektiv</a>
+            <a href="/studerende/credits.html">Credits</a>
         `
 
         let currentScrollValue = 0;
@@ -159,7 +161,7 @@ moments.renderMoment = (moment) => {
 
 }
 
-console.log('Hello World dassadsadasd')
+
 
 // Moments Initializing
 moments.init = async () => {
@@ -173,8 +175,6 @@ moments.init = async () => {
         });
 
         momentsResult = momentsResult.sort(({ time: a }, {time: b }) => a > b ? 1 : a < b ? -1 : 0);
-
-        console.log('Moments Loaded:', momentsResult)
 
         // Moment Container
         let momentContainer = document.querySelector('.moment-container');
@@ -203,6 +203,8 @@ application.init = () => {
     navigation.init();
     moments.init();
     mnsry.init();
+    credits.init();
+    about.init();
     
     
 }

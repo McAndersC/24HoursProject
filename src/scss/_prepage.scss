@@ -19,7 +19,7 @@
 
     overflow: hidden;
     margin: auto;
-    margin-bottom: 140px;
+  
     max-width: $content-width;
 
     .h1{
@@ -45,20 +45,20 @@
 
 
 // Maso
-.grid-sizer {
+.grid-prepage-sizer {
   width: 100%;
 }
 
-.gutter-sizer { 
+.gutter-prepage-sizer { 
     width: 8px; 
 }
 
-.grid {
+.grid-prepage {
 
     margin-bottom: 90px;
 }
 
-.grid-item {
+.grid-prepage-item {
 
     position: relative;
     float: left;
@@ -150,31 +150,31 @@
 }
 
 @media (min-width: $breakpoint_sm) and (max-width: $breakpoint_md) {
-    .grid-sizer {
+    .grid-prepage-sizer {
         width: 48%
     }
     
-    .grid-item {
+    .grid-prepage-item {
         width: 48%;
     }
 }
 
 @media (min-width: $breakpoint_md) and (max-width: $breakpoint_lg) {
-    .grid-sizer {
+    .grid-prepage-sizer {
         width: 32%
     }
     
-    .grid-item {
+    .grid-prepage-item {
         width: 32%;
     }
 }
 
 @media (min-width: $breakpoint_lg) {
-    .grid-sizer {
+    .grid-prepage-sizer {
         width: 19%
     }
     
-    .grid-item {
+    .grid-prepage-item {
         width: 19%;
     }
 }

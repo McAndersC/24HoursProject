@@ -1,0 +1,155 @@
+:root{
+    --main-bg-color:#d9b03f;
+}
+
+
+.history-page {
+
+    margin-top: 80px;
+
+    .section{
+        background-color: var(--main-bg-color);
+        width: 100%;
+    
+    }
+    
+    .section-1{
+        width: 100%;
+    }
+    
+    .content-box{
+        width: 75vw;
+        margin-left: 12.5vw;
+        padding-top: 5vw;
+        display: flex;
+    }
+    
+    .content-box-left{
+        width: 35.45vw;
+        margin-right: 1.425vw;
+        padding-bottom: 5vw;
+    }
+    
+    .content-box-right{
+        width: 36.7vw;
+        margin-left: 1.425vw;
+        padding-bottom: 5vw;
+    }
+    
+    h1{
+        font-weight: 700;
+        line-height: 3rem;
+        font-size: 3rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    p{
+        margin-top: 2vw;
+        line-height: 1.4rem;
+        font-weight: 300;
+        font-size: 1.05rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    h4{
+        margin-top: 2vw ;
+        font-weight: 700;
+        line-height: 1.2rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .box-image{
+        width: 36.7vw;
+        height: auto;
+    }
+    
+    .content-box-2{
+        width: 75vw;
+        margin-left: 12.5vw;
+        padding-top: 5vw;
+        
+    }
+    
+    .content-box-left-2{
+        width: 35.45vw;
+        margin-right: 1.425vw;
+        padding-bottom: 5vw;
+        float: right;
+    }
+    
+    .content-box-right-2{
+        width: 36.7vw;
+        margin-left: -1.85vw;
+        padding-bottom: 5vw;
+    }
+    
+
+    /* Responsiv */
+    /* breakpoint = 768px */
+    
+    @media only screen and (max-width: 768px){
+    
+        *{
+            flex-direction: column;
+        }
+    
+        .section{
+            background-color: var(--main-bg-color);
+            width: 100%;
+            
+        }
+            
+        .content-box, .content-box-2{
+            width: 75vw;
+            padding-top: 5vw;
+            display: flex;
+        }
+    
+        .content-box-left, .content-box-left-2{
+            width: 75vw;
+            margin-top: 2vh;
+            justify-content: center;
+        }
+            
+        h1{
+            font-weight: 700;
+            line-height: 1.2rem;
+            text-align: left;
+            font-size: 2rem;
+            font-family: 'Rubik', sans-serif;
+        }
+            
+        p{
+            margin-top: 5vw;
+            line-height: 1.2rem;
+            font-weight: 300;
+            font-size: 0.8rem;
+            font-family: 'Rubik', sans-serif;
+        }
+            
+        h4{
+            margin-top: 2vw ;
+            font-weight: 700;
+            font-size: 0.8rem;
+            line-height: 1.2rem;
+            font-family: 'Rubik', sans-serif;
+        }
+    
+        .content-box-right, .content-box-right-2{
+            margin-top: 5vh;
+            margin-left: -2px;
+        }
+    
+        .box-image{
+            width: 75vw;
+            height: auto;
+            padding-bottom: 5vw;
+        }
+            
+        .section-1{
+            width: 100%;
+        }
+            
+    }
+}
+

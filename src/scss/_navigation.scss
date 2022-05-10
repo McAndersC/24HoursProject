@@ -17,8 +17,46 @@
         display: none;
     }
 
-    &.light {
-        background-color: beige;
+    &.history {
+        background-color: #d9b03f;
+        color: #000;
+
+        .nav-heading {
+            h1{
+                color: #000;
+            }
+            
+        }
+        .nav-burger-light {
+            display: none;
+        }
+
+        .nav-burger-dark {
+            display: block;
+        }
+    }
+
+    &.credits {
+        background-color: #f86848;
+        color: #000;
+
+        .nav-heading {
+            h1{
+                color: #000;
+            }
+            
+        }
+        .nav-burger-light {
+            display: none;
+        }
+
+        .nav-burger-dark {
+            display: block;
+        }
+    }
+
+    &.about {
+        background-color: #fff;
         color: #000;
 
         .nav-heading {
@@ -48,6 +86,7 @@
 
     .nav-wrapper {
 
+        width: $content-width;
         display: flex;
         justify-content: space-between;
         align-items: center;
