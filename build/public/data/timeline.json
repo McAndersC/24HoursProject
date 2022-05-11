@@ -38,6 +38,14 @@
                 "text" : "Mads, den seje bartender"
             },
             {
+                "url" : "moments/01-45-victor.html",
+                "asset" : "04-sofie-lind.jpg",
+                "id" : "01-45-victor",
+                "size" : "height3",
+                "time" : "01:45",
+                "text" : "Victor er en 20 årig gut, der er født og opvokset i Viborg."
+            },
+            {
                 "url" : "moments/02-00-fragtcentralen-viborg.html",
                 "asset" : "04-lucas-stock.jpg",
                 "id" : "02-00-fragtcentralen-viborg",
