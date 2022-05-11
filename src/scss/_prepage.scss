@@ -1,17 +1,6 @@
 
 .prepage {
-    background-image: linear-gradient(
-        black,
-        black,
-        black,
-        black,
-        #ebebeb,  
-        #ebebeb,
-        #ebebeb,
-        black,
-        black,
-        black,
-        );
+    background-color: #000;
         width: 100%;    
 }
 
@@ -148,6 +137,26 @@
     }
 
 }
+
+@media (min-width: $breakpoint_md) {
+    .prepage {
+        // background-image: linear-gradient(
+        //     black,
+        //     black,
+        //     black,
+        //     black,
+        //     #ebebeb,  
+        //     #ebebeb,
+        //     #ebebeb,
+        //     black,
+        //     black,
+        //     black,
+        //     );
+            width: 100%;    
+    }
+}
+
+
 
 @media (min-width: $breakpoint_sm) and (max-width: $breakpoint_md) {
     .grid-prepage-sizer {

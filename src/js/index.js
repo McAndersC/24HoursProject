@@ -2,6 +2,7 @@ import mnsry from './msnry'
 import templates from './templates'
 import credits from './credits'
 import about from './about'
+import front from './front'
 
 // Navigation
 const navigation = {}
@@ -17,6 +18,11 @@ navigation.init = () => {
         const navigationContent = navigation.querySelector('.nav-links');
 
         const socialActions = navigation.querySelectorAll('.social-action');
+        const socialAction = navigation.querySelector('.share');
+
+        socialAction.addEventListener('click', (e) => {
+            e.target.classList.toggle('active')
+        })
 
         if(socialActions) {
 
@@ -64,11 +70,16 @@ navigation.init = () => {
       
 
 
+        // navigationContent.innerHTML = `
+        //     <a href="/">Gå til billedoversigten</a>
+        //     <a href="/om/om-one-day-viborg.html">Om projektet ONE DAY VIBORG</a>
+        //     <a href="/historie/det-historiske-perspektiv.html">Det historiske perspektiv</a>
+        //     <a href="/credits/credits.html">Credits</a>
+        // `
+
         navigationContent.innerHTML = `
-            <a href="/">Gå til billedoversigten</a>
-            <a href="/om/">Om projektet ONE DAY VIBORG</a>
-            <a href="/historie/det-historiske-perspektiv.html">Det historiske perspektiv</a>
-            <a href="/studerende/credits.html">Credits</a>
+        <a href="/">Gå til billedoversigten</a>
+        <a href="/historie/det-historiske-perspektiv.html">Det historiske perspektiv</a>
         `
 
         let currentScrollValue = 0;
@@ -82,6 +93,8 @@ navigation.init = () => {
                 if(!navigation.classList.contains('hide')) {
                     navigation.classList.add('hide')
                     navigation.classList.remove('active')
+                  
+                    socialAction.classList.remove('active')
                 }
                 
             } else if(compareValue >= 0) {
@@ -170,7 +183,7 @@ moments.init = async () => {
 
         let tempPrefix = '';
 
-        let momentsResult = await fetch(tempPrefix + '/public/data/moments.json').then((response) => response.json()).then((response) => {
+        let momentsResult = await fetch(tempPrefix + '/public/data/moments.json?' + Date.now()).then((response) => response.json()).then((response) => {
             return response;
         });
 
@@ -205,6 +218,7 @@ application.init = () => {
     mnsry.init();
     credits.init();
     about.init();
+    front.init();
     
     
 }

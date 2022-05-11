@@ -1,0 +1,361 @@
+.frontpage {
+    :root {
+        --animation: 1s;
+      }
+      
+      body, html{
+        overflow-x: hidden !important;
+     
+      }
+      
+      
+      .box img{
+        object-fit: cover;
+        background-color: #f1f1fa;
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
+        color: white;
+        transition: all 0.4s;
+      }
+      
+      .box:hover img {
+        transform: scale(1.1);
+        transition: all 0.4s;
+      }
+      
+      .txt1 {
+        max-width: 75vw;
+        margin: auto;
+        color: #ebebeb;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1.2;
+        padding: 0rem 0 2rem 0;
+      }
+      
+      .txt2 {
+        max-width: 75vw;
+        margin: auto;
+        color: #000;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1.2;
+        padding: 6rem 0 2rem 0;
+      }
+      
+      .wrapper-container{
+        background-image: linear-gradient(black, black, #ebebeb, #ebebeb, #ebebeb, #ebebeb, black, black);
+        min-width: 100vw;
+        margin: auto;
+      }
+      
+      .wrapper {
+        display: -ms-grid;
+        display: grid;
+        grid-gap: 5px;
+        -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        -ms-grid-rows: (minmax(95px, 1fr))[auto-fill];
+            grid-template-rows: repeat(auto-fill, minmax(95px, 1fr));
+        color: #444;
+        width: 75vw;
+        margin: auto;
+      }
+      
+      .par-elm {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        min-height: 50px;
+        padding: 5px 5px 0 10px;
+        font-weight: bold;
+        position: absolute;
+      }
+      .par-elm span{
+        font-weight: normal;
+        padding-bottom: 5px;
+      
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 1.2;
+      }
+      .box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        background-size: cover;
+        color: #fff;
+        font-size: 150%;
+        opacity: 0;
+        overflow: hidden;
+      }
+      .box:after {
+        contain: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+      }
+      
+      .small {
+        grid-row: auto / span 2;
+      }
+      
+      .medium {
+        grid-row: auto / span 3;
+      }
+      
+      .big {
+        grid-row: auto / span 4;
+      }
+      
+      /* MEDIA QUERIES */
+      @media only screen and (min-width: 0px) {
+        .wrapper {
+          min-height: 40vw;
+        }
+        .big {
+          grid-row: auto / span 3;
+        }
+        .txt1 {
+          color: #000000;
+        }
+        
+        .txt2 {
+          color: #000;
+        }
+        .wrapper-container{
+            background-image: linear-gradient(#ebebeb, #ebebeb, #ebebeb, #ebebeb, #ebebeb, #ebebeb, #ebebeb, #ebebeb);
+        }
+      }
+      @media only screen and (min-width: 674px) {
+        .wrapper {
+          min-height: 3200px;
+        }
+        .big {
+          grid-row: auto / span 4;
+        }
+        .wrapper-container{
+          background-image: linear-gradient(black, black, #ebebeb, #ebebeb, #ebebeb, #ebebeb, black, black);
+      }
+      .txt1 {
+        color: #ffffff;
+      }
+      
+      .txt2 {
+        color: #000;
+      }
+      
+      
+      }
+      @media only screen and (min-width: 1014px) {
+        .wrapper {
+          min-height: 2000px;
+        }
+      }
+      @media only screen and (min-width: 1353px) {
+        .wrapper {
+          min-height: 1600px;
+        }
+      }
+      @media only screen and (min-width: 1694px) {
+        .wrapper {
+          min-height: 1210px;
+        }
+      }
+      
+      @media only screen and (max-width: 673px) {
+        .box {
+          height: 425px;
+        }
+        .txt1 {
+          font-size: 2rem;
+        }
+      
+        .txt2 {
+          font-size: 2rem;
+        }
+        .gallery-span {
+          font-size: 1.2rem;
+        }
+      }
+      
+      @media only screen and (min-width: 674px) {
+        .txt1 {
+          font-size: 2.5rem;
+        }
+      
+        .txt2 {
+          font-size: 2.5rem;
+        }
+        .gallery-span {
+          font-size: 1.5rem;
+        }
+      }
+      
+      @media only screen and (min-width: 1014px) {
+      }
+      
+      @media only screen and (min-width: 1354px) {
+        .txt1 {
+          font-size: 3rem;
+        }
+      
+        .txt2 {
+          font-size: 3rem;
+        }
+      }
+      
+      @media (max-width: 1880px) {
+        .wrapper {
+          margin-bottom: 100px;
+        }
+      }
+      
+      .activate_fadeUp {
+        -webkit-animation: fadeUp var(--animation);
+        animation: fadeUp var(--animation);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        opacity: 1 !important;
+      }
+      .activate_fadeDown {
+        -webkit-animation: fadeDown var(--animation);
+        animation: fadeDown var(--animation);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        opacity: 1 !important;
+      }
+      .activate_fadeLeft {
+        -webkit-animation: fadeLeft var(--animation);
+        animation: fadeLeft var(--animation);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        opacity: 1 !important;
+      }
+      .activate_fadeRight {
+        -webkit-animation: fadeRight var(--animation);
+        animation: fadeRight var(--animation);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        opacity: 1 !important;
+      }
+      
+      @-webkit-keyframes fadeUp {
+        from {
+          opacity: 0;
+          -webkit-transform: translateY(200px);
+                  transform: translateY(200px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+        }
+      }
+      
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          -webkit-transform: translateY(200px);
+                  transform: translateY(200px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+        }
+      }
+      
+      @-webkit-keyframes fadeDown {
+        from {
+          opacity: 0;
+          -webkit-transform: translateY(-200px);
+                  transform: translateY(-200px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+        }
+      }
+      
+      @keyframes fadeDown {
+        from {
+          opacity: 0;
+          -webkit-transform: translateY(-200px);
+                  transform: translateY(-200px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+        }
+      }
+      
+      @-webkit-keyframes fadeLeft {
+        from {
+          opacity: 0;
+          -webkit-transform: translateX(-200px);
+                  transform: translateX(-200px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+        }
+      }
+      
+      @keyframes fadeLeft {
+        from {
+          opacity: 0;
+          -webkit-transform: translateX(-200px);
+                  transform: translateX(-200px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+        }
+      }
+      
+      @-webkit-keyframes fadeRight {
+        from {
+          opacity: 0;
+          -webkit-transform: translateX(200px);
+                  transform: translateX(200px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+        }
+      }
+      
+      @keyframes fadeRight {
+        from {
+          opacity: 0;
+          -webkit-transform: translateX(200px);
+                  transform: translateX(200px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+        }
+      }
+      
+      .pic-txt {
+        font-size: 0.7rem;
+        line-height: 1.2;
+        font-weight: 400;
+      }
+}

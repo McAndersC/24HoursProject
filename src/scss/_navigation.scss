@@ -17,13 +17,15 @@
         display: none;
     }
 
-    &.history {
-        background-color: #d9b03f;
-        color: #000;
-
+    &.c24hours-yellow {
+        background-color: $color-24hours-yellow;
+        color: $color-24hours-black;
+        .nav-share-pop {
+            background-color: $color-24hours-yellow;
+        }
         .nav-heading {
             h1{
-                color: #000;
+                color: $color-24hours-black;
             }
             
         }
@@ -36,13 +38,16 @@
         }
     }
 
-    &.credits {
-        background-color: #f86848;
-        color: #000;
+    &.c24hours-orange {
+        background-color: $color-24hours-orange;
+        color: $color-24hours-black;
 
+        .nav-share-pop {
+            background-color: $color-24hours-orange;
+        }
         .nav-heading {
             h1{
-                color: #000;
+                color: $color-24hours-black;
             }
             
         }
@@ -55,13 +60,42 @@
         }
     }
 
-    &.about {
-        background-color: #fff;
-        color: #000;
+    &.c24hours-green {
+
+        background-color: $color-24hours-green;
+        color: $color-24hours-black;
+
+        .nav-share-pop {
+            background-color: $color-24hours-green;
+        }
 
         .nav-heading {
             h1{
-                color: #000;
+                color: $color-24hours-black;
+            }
+            
+        }
+        .nav-burger-light {
+            display: none;
+        }
+
+        .nav-burger-dark {
+            display: block;
+        }
+    }
+
+    &.c24hours-white {
+
+        background-color: $color-24hours-white;
+        color: $color-24hours-black;
+
+        .nav-share-pop {
+            background-color: $color-24hours-white;
+        }
+
+        .nav-heading {
+            h1{
+                color:$color-24hours-black;
             }
             
         }
@@ -97,6 +131,7 @@
 
     .nav-bar {
 
+        user-select: none;
         display: flex;
         align-items: center;
         cursor: pointer;
@@ -128,16 +163,25 @@
         
         display: none;
         position: absolute;
-        background-color: #fff;
+        background-color: #000;
         color: #000;
-        right: -10px;
-        padding: 10px;
+        width: 36px;
+        height: 110px;
+        border-radius: 0 0 8px 8px;
+        padding: 0px 6px;
+        top: 35px;
+        left: -4px;
+
+        img {
+            width: 100%;
+        }
 
         .social-action {
 
             &:hover {
                transform: scale(1.2);
             }
+
         }
     }
 
@@ -186,14 +230,15 @@
         margin-top: 5px;
         transition: transform 200ms ease-in-out;
         position: relative;
-        
+        user-select: none;
+
         &.share {
 
             margin-right : 15px;
             
         }
 
-        &:hover {
+        &.active {
             &.share {
                 .nav-share-pop {
                     display: block;

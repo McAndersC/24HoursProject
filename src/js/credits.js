@@ -23,7 +23,8 @@ credits.init = () => {
         
         });
 
-        console.log('Run Credit Page.', grid, grid1, msnry)
+        console.log('Run Credit Page.', grid, grid1, msnry);
+        
         msnry.layout();
         msnry1.layout();
 

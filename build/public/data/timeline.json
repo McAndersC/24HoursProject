@@ -1,402 +1,58 @@
 [
     {
-        "period" : "03:00 - 06:00",
+        "period" : "00:00 - 03:00",
         "title" : "NAT I VIBORG",
         "theme" : "light",
         "id" : "slot01",
-        "slots" : [
-            {
-                "url" : "moments/18-30-en-god-titel.html",
-                "asset" : "/18-30-en-god-titel/01-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-en-god-titel.html",
-                "asset" : "/18-30-en-god-titel/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-en-god-titel.html",
-                "asset" : "/18-30-en-god-titel/02-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            }
-        ]
+        "slots" : []
     },
     {
-        "period" : "06:00 - 09:00",
-        "title" : "Ikke NAT I VIBORG",
-        "id" : "slot02",
+        "period" : "03:00 - 06:00",
+        "title" : "MORGENEN GRYR",
         "theme" : "light",
-        "slots" : [
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            }
-        ]
+        "id" : "slot01",
+        "slots" : []
     },
     {
         "period" : "06:00 - 09:00",
-        "title" : "Ikke NAT I VIBORG",
-        "id" : "slot03",
+        "title" : "MORGEN",
         "theme" : "light",
-        "slots" : [
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            }
-        ]
+        "id" : "slot01",
+        "slots" : []
     },
     {
-        "period" : "06:00 - 09:00",
-        "title" : "Ikke NAT I VIBORG",
-        "id" : "slot04",
-        "theme" : "dark",
-        "slots" : [
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            }
-        ]
-    },
-    {
-        "period" : "06:00 - 09:00",
-        "title" : "Ikke NAT I VIBORG",
-        "id" : "slot05",
-        "theme" : "dark",
-        "slots" : [
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },   
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            }
-        ]
-    },
-    {
-        "period" : "06:00 - 09:00",
-        "title" : "Ikke NAT I VIBORG",
-        "id" : "slot06",
-        "theme" : "dark",
-        "slots" : [
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            }
-        ]
-    },
-    {
-        "period" : "06:00 - 09:00",
-        "title" : "Ikke NAT I VIBORG",
-        "id" : "slot07",
+        "period" : "09:00 - 12:00",
+        "title" : "FORMIDDAG",
         "theme" : "light",
-        "slots" : [
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height3",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height2",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            }
-        ]
+        "id" : "slot01",
+        "slots" : []
     },
     {
-        "period" : "06:00 - 09:00",
-        "title" : "Ikke NAT I VIBORG",
-        "id" : "slot08",
+        "period" : "12:00 - 15:00",
+        "title" : "MIDDAGSTIMERNE",
         "theme" : "light",
-        "slots" : [
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/01-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            },
-            {
-                "url" : "moments/18-30-test-af-template.html",
-                "asset" : "/18-30-test-af-template/02-rep.jpg",
-                "size" : "height1",
-                "time" : "11:30",
-                "text" : "En lille tekst der kan gå på to linjer"
-            }
-        ]
+        "id" : "slot01",
+        "slots" : []
+    },
+    {
+        "period" : "15:00 - 18:00",
+        "title" : "EFTERMIDDAG",
+        "theme" : "light",
+        "id" : "slot01",
+        "slots" : []
+    },
+    {
+        "period" : "18:00 - 21:00",
+        "title" : "TIDLIG AFTEN",
+        "theme" : "light",
+        "id" : "slot01",
+        "slots" : []
+    },
+    {
+        "period" : "21:00 - 24:00",
+        "title" : "SEN AFTEN",
+        "theme" : "light",
+        "id" : "slot01",
+        "slots" : []
     }
 ]

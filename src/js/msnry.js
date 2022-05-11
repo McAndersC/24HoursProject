@@ -12,7 +12,7 @@ msnry.init = async () => {
 
     try {
 
-        const timelineData = await fetch('/public/data/timeline.json').then((response) => response.json()).then((response) => {
+        const timelineData = await fetch('/public/data/timeline.json?' + Date.now()).then((response) => response.json()).then((response) => {
             return response;
         });
 
