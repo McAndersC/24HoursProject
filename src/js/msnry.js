@@ -33,7 +33,7 @@ msnry.init = async () => {
                                         <div class="grid-item-info info-time">${timesalot.time}</div>
                                         <div class="grid-item-info info-text">${timesalot.text}</div>
                                     </div>
-                                    <img src="../public/assets/moments/${timesalot.asset}" />
+                                    <img src="../public/assets/moments/${timesalot.id}/${timesalot.asset}" />
                                 </a>
                             </div>
                         `

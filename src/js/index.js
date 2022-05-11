@@ -78,8 +78,8 @@ navigation.init = () => {
         // `
 
         navigationContent.innerHTML = `
-        <a href="/">Gå til billedoversigten</a>
-        <a href="/historie/det-historiske-perspektiv.html">Det historiske perspektiv</a>
+            <a href="/">Gå til billedoversigten</a>
+            <a href="/historie/det-historiske-perspektiv.html">Det historiske perspektiv</a>
         `
 
         let currentScrollValue = 0;
@@ -145,27 +145,33 @@ navigation.init = () => {
 const moments = {};
 moments.renderMoment = (moment) => {
 
-    let momentContainer = document.querySelector('.moment-container');
-    momentContainer.insertAdjacentHTML('beforeend', templates.subpageHeaderTemplate(moment));
-    moment.templates.forEach((template) => {
+    let wrapper = `<div class="bg-color"><div class="wrapper" id="moment-wrapper"></div></div>`
 
+    let momentContainer = document.querySelector('.moment-container');
+    momentContainer.insertAdjacentHTML('beforeend', wrapper);
+    let wrapperContainer = document.querySelector('#moment-wrapper');
+
+    momentContainer.insertAdjacentHTML('afterbegin', templates.subpageHeaderTemplate(moment));
+
+    moment.templates.forEach((template) => {
+ 
         switch (template.template) {
     
             case '01':
 
-                momentContainer.insertAdjacentHTML('beforeend', templates.template01(moment, template))
+                wrapperContainer.insertAdjacentHTML('beforeend', templates.template01(moment, template))
 
                 break;
 
             case '02':
 
-                momentContainer.insertAdjacentHTML('beforeend', templates.template02(moment, template))
+                wrapperContainer.insertAdjacentHTML('beforeend', templates.template02(moment, template))
 
                 break;
 
             case '03':
 
-                momentContainer.insertAdjacentHTML('beforeend', templates.template03(moment, template))
+                wrapperContainer.insertAdjacentHTML('beforeend', templates.template03(moment, template))
 
                 break;
         }
@@ -195,9 +201,17 @@ moments.init = async () => {
         {
             momentContainer.innerHTML = '';
 
-            let momentPageId = window.location.pathname.split('/')[2].replace('.html', '');
-            let moment = momentsResult.find((moment) => moment.id === momentPageId);
-            moments.renderMoment(moment);
+            // let momentPageId = decodeURIComponent(window.location.pathname).split('/')[2].replace('.html', '');
+            let momentPageId = window.location.pathname;
+            momentPageId = momentPageId.split('/')[2].replace('.html', '');;
+
+            let moment = momentsResult.find((moment) =>{ 
+           
+                if(moment.id === decodeURI(momentPageId))
+                {
+                    moments.renderMoment(moment);
+                }
+            });
 
         }
 

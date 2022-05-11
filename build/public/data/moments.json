@@ -1,24 +1,33 @@
 [
     {
-        "title": "En god titel",
-        "time": "18:30",
+        "title": "En aften på Sankt Hans Bodega.",
+        "time": "00:00",
         "date": "2022-05-04",
-        "square": "01-rep.jpg",
-        "description": "En god beskrivelse 💪",
-        "author": "En forfatter ",
-        "id": "18-30-en-god-titel",
-        "url": "/moments/18-30-en-god-titel.html",
+        "square": "01-clara-petersen.jpg",
+        "description": "Jeg har fulgt bartenderen Peter på Sankt Hans Bodega tirsdag aften. ",
+        "author": "Clara Petersen",
+        "id": "00-00-en-aften-på-sankt-hans-bodega",
+        "url": "/moments/00-00-en-aften-p%C3%A5-sankt-hans-bodega.html",
         "templates": [
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "02-clara-petersen.jpg",
+                        "text": "Selvom det en almindelig tirsdag aften, er der pænt besøgt på bodegaen."
+                    }
+                ]
+            },
             {
                 "template": "01",
                 "media": [
                     {
-                        "image": "02-rep.jpg",
-                        "text": "Jeg syntes altså godt det kunne være lidt smartere det her."
+                        "image": "03-clara-petersen.jpg",
+                        "text": "Det er mest øl som går over disken."
                     },
                     {
-                        "image": "05-rep.jpg",
-                        "text": "Burde man ikke benytte out-sourcing!"
+                        "image": "04-clara-petersen.jpg",
+                        "text": "Der skal både serveres og vaskes op ind imellem."
                     }
                 ]
             },
@@ -26,30 +35,56 @@
                 "template": "02",
                 "media": [
                     {
-                        "image": "04-rep.jpg",
-                        "text": "Jeg syntes altså godt det kunne være lidt smartere det her."
+                        "image": "05-clara-petersen.jpg",
+                        "text": "Oprydning efter gæsterne skal også klares."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "06-clara-petersen.jpg",
+                        "text": "Sidst på aftenen er der en chance for at slappe af."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "07-clara-petersen.jpg",
+                        "text": "Det er et af de få værtshuse hvor det er lovligt at ryge indendørs."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "08-clara-petersen.jpg",
+                        "text": "Hovedsponsoren har en fremtrædende plads i bodegaen. "
                     }
                 ]
             }
         ]
     },
     {
-        "title": "Test Af Template",
-        "time": "18:30",
-        "square": "01-rep.jpg",
-        "description": "Der er noget fascinerende ved bjerge. De rå bjerge, græsbeklædte bjerge og vand i bjergene udgør fantastiske naturscenarier.",
-        "author": "Anette Bertelsen",
+        "title": "Stemninger fra Sankt Hans Bodega",
+        "time": "00:07",
+        "date": "2022-05-04",
+        "square": "01-asmus-krom.jpg",
+        "description": "Natten fra tirsdag d. 10/5 til Onsdag d. 11/5 blev brugt i de hyggelige omgivelser ved Sankt Hans Bodega. Her hilser Peter på diverse kunder der møder ind i de sene timer",
+        "author": "Asmus Kromann Bork ",
+        "id": "00-07-stemninger-fra-sankt-hans-bodega",
+        "url": "/moments/00-07-stemninger-fra-sankt-hans-bodega.html",
         "templates": [
             {
-                "template": "01",
+                "template": "02",
                 "media": [
                     {
-                        "image": "02-rep.jpg",
-                        "text": "02-rep.jpg billedtekst"
-                    },
-                    {
-                        "image": "03-rep.jpg",
-                        "text": "03-rep.jpg billedtekst"
+                        "image": "02-asmus-krom.jpg",
+                        "text": "Guitarknagerne løber langs væggen med alle gæsters overtøj."
                     }
                 ]
             },
@@ -57,22 +92,434 @@
                 "template": "02",
                 "media": [
                     {
-                        "image": "04-rep.jpg",
-                        "text": "04-rep.jpg billedtekst"
+                        "image": "03-asmus-krom.jpg",
+                        "text": "En smøg i hånden og et par øl på disken betegner en god aften."
                     }
                 ]
             },
             {
-                "template": "03",
+                "template": "02",
                 "media": [
                     {
-                        "image": "05-rep.jpg",
-                        "text": "05-rep.jpg billedtekst"
+                        "image": "04-asmus-krom.jpg",
+                        "text": "Med smøgen og øllen, er der stadig massere af bevægelse i hænderne."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "05-asmus-krom.jpg",
+                        "text": "Ahmed vandt tidligere 1.000kr, men det er ikke noget specielt, for han har allerede selv smidt mindst 1.000kr i maskinen."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "06-asmus-krom.jpg",
+                        "text": "Noget tid efter vi er gået i gang med vores opgave, kommer en fremmed over og indleder en snak."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "07-asmus-krom.jpg",
+                        "text": "Den nye øl nydes stille af parret der kort forinden trådte ind ad døren for at hygge sig denne nat."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "08-asmus-krom.jpg",
+                        "text": "Borderne tømmes efter en stor forsamling, og med en finger i hver flaske, kan det gå ret hurtigt."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "09-asmus-krom.jpg",
+                        "text": "Sankt Hans siger tak for i aften."
                     }
                 ]
             }
-        ],
-        "id": "18-30-test-af-template",
-        "url": "/moments/18-30-test-af-template.html"
+        ]
+    },
+    {
+        "title": "Natportier hos Golf Hotel i Viborg",
+        "time": "00:15",
+        "date": "2022-05-04",
+        "square": "01-nicoline-ernstorn.jpg",
+        "description": "Victor er natportier hos Golf Hotel i Viborg, hvor han arbejder i sit sabatår inden han skal læse videre. Golf Hotel blev indviet i 1986 og tegnet af arkitekterne Hougaard Nielsen & Nørgaard Pedersen, med inspiration fra den gamle kongsborg på Borgvold.",
+        "author": "Nicoline B. Ernstorn",
+        "id": "00-15-natportier-hos-golf-hotel-i-viborg",
+        "url": "/moments/00-15-natportier-hos-golf-hotel-i-viborg.html",
+        "templates": [
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "02-nicoline-ernstorn.jpg",
+                        "text": "De luksuriøse omgivelser skaber rum til smil."
+                    }
+                ]
+            },
+            {
+                "template": "01",
+                "media": [
+                    {
+                        "image": "03-nicoline-ernstorn.jpg",
+                        "text": "Papirarbejdet opbevares som det altid er blevet gjort."
+                    },
+                    {
+                        "image": "05-nicoline-ernstorn.jpg",
+                        "text": "Victor nyder sit sabatår med tilfredshed."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "04-nicoline-ernstorn.jpg",
+                        "text": "Stille aften med 67 overnattende gæster en helt almindelig hverdagsnat."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "06-nicoline-ernstorn.jpg",
+                        "text": "Giv et ring på klokken og piccoloen kommer løbende."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "07-nicoline-ernstorn.jpg",
+                        "text": "Kalenderen fyldes i håb om gode minder for gæsterne."
+                    }
+                ]
+            },
+            {
+                "template": "01",
+                "media": [
+                    {
+                        "image": "08-nicoline-ernstorn.jpg",
+                        "text": "Mange har igennem årene været forbi Golf Hotel i Viborg."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Peter, en eftertænksom bartender",
+        "time": "02:06",
+        "date": "2022-05-04",
+        "square": "01-andreea-matei.jpg",
+        "description": "Når du går på bodega, vil du nok ikke forvente at møde en så eftertænksom mand, men nogle gange sent om aftenen, møder du en mand som Peter. Han betjener dig, han griner med dig, samtidig har han mange tanker mellem sine trætte øjne. Lad os prøve at fare vild i tankerne og se den historie, de siger.",
+        "author": "Andreea Matei ",
+        "id": "02-06-peter-en-eftertænksom-bartender",
+        "url": "/moments/02-06-peter-en-eftert%C3%A6nksom-bartender.html",
+        "templates": [
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "02-andreeamatei.jpg",
+                        "text": "Et ikke iskoldt blik."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "03-andreeamatei.jpg",
+                        "text": "Undrende øjne."
+                    }
+                ]
+            },
+            {
+                "template": "01",
+                "media": [
+                    {
+                        "image": "04-andreeamatei.jpg",
+                        "text": "Lad mig underholde dig."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "05-andreeamatei.jpg",
+                        "text": "Det er tilladt at ryge indenfor."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "06-andreeamatei.jpg",
+                        "text": "De sidste kunder."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "07-andreeamatei.jpg",
+                        "text": "Uha det bliver en dyr aften."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "08-andreeamatei.jpg",
+                        "text": "Peter gør kassen op."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "09-andreeamatei.jpg",
+                        "text": "Bare mig til sidst."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Mads, den seje bartender",
+        "time": "00:32",
+        "date": "2022-05-04",
+        "square": "01-andree-amatei.jpg",
+        "description": "Du bliver introduceret i historien om Mads, en bartender, der arbejder på Peak 12 Hotel i Viborg. Han vil lave ikke bare en god drink til dig. Man vil stoppe lidt op og beundre hans energi, hans stil og helt sikkert give dig lyst til at komme tilbage. Hvis ikke for det seje hotel, så for den seje bartender.",
+        "author": "Andreea Matei",
+        "id": "00-32-mads-den-seje-bartender",
+        "url": "/moments/00-32-mads-den-seje-bartender.html",
+        "templates": [
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "02-andree-amatei.jpg",
+                        "text": "Holder bare pæn"
+                    }
+                ]
+            },
+            {
+                "template": "01",
+                "media": [
+                    {
+                        "image": "03-andree-amatei.jpg",
+                        "text": "Finder ingredienserne som skal bruges til drinks"
+                    },
+                    {
+                        "image": "05-andree-amatei.jpg",
+                        "text": "Planlægning til næste dag"
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "04-andree-amatei.jpg",
+                        "text": "Det kræver præcise mål, for at lave en velsmagende drink"
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "06-andree-amatei.jpg",
+                        "text": "Den flotte cocktail"
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "07-andree-amatei.jpg",
+                        "text": "Tæt på lukketid, Men der er altid et glas der skal pudses"
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "08-andree-amatei.jpg",
+                        "text": "Min tid for mig selv …"
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "09-andree-amatei.jpg",
+                        "text": "Oh…yeah. Fri efter en lang arbejdsdag"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Børn- og Ungeafdelingen hos Viborg sygehus.",
+        "time": "02.00",
+        "date": "2022-05-04",
+        "square": "01-nicoline-ernstorn.jpg",
+        "description": "De to nattevagt-sygesplejersker Tine og Bente hos Børn- og Ungeafdelingen på Viborg Sygehus, har til aften nattevagten. I aften er 8 børn er indlagt.",
+        "author": "Nicoline B. Ernstorn ",
+        "id": "02.00-børn-og-ungeafdelingen-hos-viborg-sygehus",
+        "url": "/moments/02.00-b%C3%B8rn-og-ungeafdelingen-hos-viborg-sygehus.html",
+        "templates": [
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "02-nicoline-ernstorn.jpg",
+                        "text": "Meget skal holdes øje med på 3 skærme."
+                    }
+                ]
+            },
+            {
+                "template": "01",
+                "media": [
+                    {
+                        "image": "03-nicoline-ernstorn.jpg",
+                        "text": "Faglige overvejelse laves i forhold til de 7 indlagte patienter."
+                    },
+                    {
+                        "image": "05-nicoline-ernstorn.jpg",
+                        "text": "Et lille spædbarn indlægges som patient nummer 8."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "04-nicoline-ernstorn.jpg",
+                        "text": "En af de små, svægende mus i himlen."
+                    }
+                ]
+            },
+            {
+                "template": "01",
+                "media": [
+                    {
+                        "image": "07-nicoline-ernstorn.jpg",
+                        "text": "Godt humør mellem gennemgang af stuerne."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "08-nicoline-ernstorn.jpg",
+                        "text": "En hurtig natmad løfter nattens energi-niveau."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Fragtcentralen Viborg",
+        "time": "02:00",
+        "date": "2022-05-04",
+        "square": "01-lucas-stock.jpg",
+        "description": "Viborg sover, men på fragtcentralen er der altid liv. Gennem nattens lange timer, bliver der pakket, stablet, fyldt og tømt lastbiler. Varene skal stå klar tidligt om morgenen, så der bliver kørt i døgndrift, med fuld fart på. Der er altid travlt hos de danske fragtmænd.",
+        "author": "Lucas Stockwell ",
+        "id": "02-00-fragtcentralen-viborg",
+        "url": "/moments/02-00-fragtcentralen-viborg.html",
+        "templates": [
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "02-lucas-stock.jpg",
+                        "text": "Lastbilerne bliver tømt, så de kan fyldes op igen og komme på vejen."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "03-lucas-stock.jpg",
+                        "text": "Lastrummet bliver pakket præcist og effektivt."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "04-lucas-stock.jpg",
+                        "text": "Tomt lastrum klar til at blive pakket."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "05-lucas-stock.jpg",
+                        "text": "Det kræver koncentration at manøvre rundt på palleløfteren."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "06-lucas-stock.jpg",
+                        "text": "“Min palleløfter er større end din palleløfter…”"
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "07-lucas-stock.jpg",
+                        "text": "Lageret er næsten fyldt. Nu skal der pakkes."
+                    }
+                ]
+            },
+            {
+                "template": "02",
+                "media": [
+                    {
+                        "image": "08-lucas-stock.jpg",
+                        "text": "De sidste paller kommer på plads."
+                    }
+                ]
+            }
+        ]
     }
 ]
