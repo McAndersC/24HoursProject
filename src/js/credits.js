@@ -19,8 +19,6 @@ credits.init = () => {
         // init with selector
         var msnry = new Masonry( grid, {
             itemSelector: '.grid-item'
-        
-        
         });
 
         console.log('Run Credit Page.', grid, grid1, msnry);

@@ -54,6 +54,14 @@
                 "text" : "Fragtcentralen Viborg"
             },
             {
+                "url" : "moments/02-00-børn-og-ungeafdelingen-hos-viborg-sygehus.html",
+                "asset" : "34-nicoline-ernstorn.jpg",
+                "id" : "02-00-børn-og-ungeafdelingen-hos-viborg-sygehus",
+                "size" : "height",
+                "time" : "02:00",
+                "text" : "Børn- og Ungeafdelingen hos Viborg sygehus"
+            },
+            {
                 "url" : "moments/02-06-peter-en-eftertænksom-bartender.html",
                 "asset" : "04-andreeamatei.jpg",
                 "id" : "02-06-peter-en-eftertænksom-bartender",
@@ -65,17 +73,53 @@
     },
     {
         "period" : "03:00 - 06:00",
-        "title" : "MORGENEN GRYR",
+        "title" : "MORGEN",
         "theme" : "light",
-        "id" : "slot01",
-        "slots" : []
+        "id" : "slot02",
+        "slots" : [{
+            "url" : "moments/03-05-vores-bager-i-viborg.html",
+            "asset" : "02-isabella-reinholdt.jpg",
+            "id" : "03-05-vores-bager-i-viborg",
+            "size" : "height",
+            "time" : "03:05",
+            "text" : "Vores Bager i Viborg"
+        },{
+            "url" : "moments/04-00-der-er-lys-når-nattens-dæmoner-vågner.html",
+            "asset" : "02-karen-munk.jpg",
+            "id" : "04-00-der-er-lys-når-nattens-dæmoner-vågner",
+            "size" : "height3",
+            "time" : "04:00",
+            "text" : "Der er lys, når nattens dæmoner vågner"
+        },{
+            "url" : "moments/05-30-rengøring-på-media-college.html",
+            "asset" : "04-isabella-reinholdt.jpg",
+            "id" : "05-30-rengøring-på-media-college",
+            "size" : "height3",
+            "time" : "04:00",
+            "text" : "Rengøring på Media College"
+        },{
+            "url" : "moments/06-00-en-morgen-på-asmildkloster-landbrugsskole.html",
+            "asset" : "43-kirsten-loje.jpg",
+            "id" : "06-00-en-morgen-på-asmildkloster-landbrugsskole",
+            "size" : "height",
+            "time" : "06:00",
+            "text" : "En morgen på Asmildkloster landbrugsskole"
+        }
+    ]
     },
     {
         "period" : "06:00 - 09:00",
         "title" : "MORGEN",
         "theme" : "light",
-        "id" : "slot01",
-        "slots" : []
+        "id" : "slot03",
+        "slots" : [{
+            "url" : "moments/06-00-en-morgen-på-asmildkloster-landbrugsskole.html",
+            "asset" : "43-kirsten-loje.jpg",
+            "id" : "06-00-en-morgen-på-asmildkloster-landbrugsskole",
+            "size" : "height",
+            "time" : "06:00",
+            "text" : "En morgen på Asmildkloster landbrugsskole"
+        }]
     },
     {
         "period" : "09:00 - 12:00",
