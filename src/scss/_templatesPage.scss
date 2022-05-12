@@ -1,23 +1,23 @@
 .templates-page {
     
     .wrapper {
-        max-width: 75vw;
+        max-width: $content-width;
         margin: 10vw auto;
         font-size: 0.9rem;
     }
 
-    @media only screen and (min-width: 1440px) {
-        .wrapper {
-            max-width: 60vw;
-        }
-    }
+    // @media only screen and (min-width: 1440px) {
+    //     .wrapper {
+    //         max-width: 60vw;
+    //     }
+    // }
 
-    @media only screen and (max-width: 768px) {
-        .wrapper {
-            max-width: 94vw;
-            font-size: 0.8rem;
-        }
-    }
+    // @media only screen and (max-width: 768px) {
+    //     .wrapper {
+    //         max-width: 94vw;
+    //         font-size: 0.8rem;
+    //     }
+    // }
 
     .template1 {
         display: grid;

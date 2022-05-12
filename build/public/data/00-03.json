@@ -1,0 +1,90 @@
+[
+    {
+        "period" : "00:00 - 03:00",
+        "title" : "NAT I VIBORG",
+        "theme" : "light",
+        "id" : "slot01",
+        "slots" : [
+            {
+                "url" : "moments/00-00-en-aften-på-sankt-hans-bodega.html",
+                "asset" : "03-clara-petersen.jpg",
+                "id" : "00-00-en-aften-på-sankt-hans-bodega",
+                "size" : "height3",
+                "time" : "00:00",
+                "text" : "En aften på Sankt Hans Bodega"
+            },
+            {
+                "url" : "moments/00-00-fødeafdelingen-når-vi-andre-sover.html",
+                "asset" : "07-julie-bech.jpg",
+                "id" : "00-00-fødeafdelingen-når-vi-andre-sover",
+                "size" : "height3",
+                "time" : "00:00",
+                "text" : "Fødeafdelingen når vi andre sover"
+            },
+            {
+                "url" : "moments/00-07-stemninger-fra-sankt-hans-bodega.html",
+                "asset" : "03-asmus-krom.jpg",
+                "id" : "00-07-stemninger-fra-sankt-hans-bodega",
+                "size" : "height",
+                "time" : "00:07",
+                "text" : "Stemning på Sankt Hans Bodega"
+            },
+            {
+                "url" : "moments/00-15-natportier-hos-golf-hotel-i-viborg.html",
+                "asset" : "05-nicoline-ernstorn.jpg",
+                "id" : "00-15-natportier-hos-golf-hotel-i-viborg",
+                "size" : "height3",
+                "time" : "00:15",
+                "text" : "Natportier hos Golf Hotel i Viborg"
+            },
+            {
+                "url" : "moments/00-30-nat-på-nordstjernen.html",
+                "asset" : "34-karen-munk.jpg",
+                "id" : "00-30-nat-på-nordstjernen",
+                "size" : "height3",
+                "time" : "00:30",
+                "text" : "Nat på Nordstjernen"
+            },
+            {
+                "url" : "moments/00-32-mads-den-seje-bartender.html",
+                "asset" : "02-andree-amatei.jpg",
+                "id" : "00-32-mads-den-seje-bartender",
+                "size" : "height",
+                "time" : "00:32",
+                "text" : "Mads, den seje bartender"
+            },
+            {
+                "url" : "moments/01-45-victor.html",
+                "asset" : "04-sofie-lind.jpg",
+                "id" : "01-45-victor",
+                "size" : "height3",
+                "time" : "01:45",
+                "text" : "Victor er en 20 årig gut, der er født og opvokset i Viborg."
+            },
+            {
+                "url" : "moments/02-00-fragtcentralen-viborg.html",
+                "asset" : "04-lucas-stock.jpg",
+                "id" : "02-00-fragtcentralen-viborg",
+                "size" : "height",
+                "time" : "02:00",
+                "text" : "Fragtcentralen Viborg"
+            },
+            {
+                "url" : "moments/02-00-børn-og-ungeafdelingen-hos-viborg-sygehus.html",
+                "asset" : "34-nicoline-ernstorn.jpg",
+                "id" : "02-00-børn-og-ungeafdelingen-hos-viborg-sygehus",
+                "size" : "height",
+                "time" : "02:00",
+                "text" : "Børn- og Ungeafdelingen hos Viborg sygehus"
+            },
+            {
+                "url" : "moments/02-06-peter-en-eftertænksom-bartender.html",
+                "asset" : "04-andreeamatei.jpg",
+                "id" : "02-06-peter-en-eftertænksom-bartender",
+                "size" : "height",
+                "time" : "02:06",
+                "text" : "Jeg har fulgt bartenderen Peter på Sankt Hans Bodega tirsdag aften."
+            }
+        ]
+    }
+]

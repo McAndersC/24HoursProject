@@ -1,0 +1,65 @@
+{
+    "period" : "18:00 - 21:00",
+    "title" : "TIDLIG AFTEN",
+    "theme" : "light",
+    "id" : "slot07",
+    "slots" : [{
+        "url" : "/moments/18-00-aftenskole-med-susanne.html",
+        "asset" : "07-michaella-niel.jpg",
+        "id" : "18-00-aftenskole-med-susanne",
+        "size" : "height",
+        "time" : "18:00",
+        "text" : "Aftenskole med Susanne"
+    },{
+        "url" : "/moments/18-00-maria-duedahl-jensen--en-ægte-ildsjæl.html",
+        "asset" : "07-Stine-Rose.jpg",
+        "id" : "18-00-maria-duedahl-jensen--en-ægte-ildsjæl",
+        "size" : "height3",
+        "time" : "18:00",
+        "text" : "Maria Duedahl Jensen - en ægte ildsjæl"
+    },{
+        "url" : "/moments/18-15-behind-the-scenes-på-one-day-viborg.html",
+        "asset" : "07-melissa-ras.jpg",
+        "id" : "18-15-behind-the-scenes-på-one-day-viborg",
+        "size" : "height",
+        "time" : "18:15",
+        "text" : "Behind the scenes på ONE DAY VIBORG"
+    },{
+        "url" : "/moments/18-15-when-there-are-no-clubs-we-go-bodega.html",
+        "asset" : "08-neculai-deloiu.jpg",
+        "id" : "18-15-when-there-are-no-clubs-we-go-bodega",
+        "size" : "height",
+        "time" : "18:15",
+        "text" : "When there are no clubs, we go bodega!"
+    },{
+        "url" : "/moments/18-30-a-stroll-down-memory-lane.html",
+        "asset" : "04-Jesper-Horn.jpg",
+        "id" : "18-30-a-stroll-down-memory-lane",
+        "size" : "height3",
+        "time" : "18:30",
+        "text" : "A Stroll Down Memory Lane"
+    },{
+        "url" : "/moments/19-50-big-band-bravour.html",
+        "asset" : "09-tea-falk.jpg",
+        "id" : "19-50-big-band-bravour",
+        "size" : "height",
+        "time" : "19:50",
+        "text" : "Big Band Bravour!"
+    },{
+        "url" : "/moments/20-00-en-tur-på-bodega-hegnet.html",
+        "asset" : "06_ines_llc.jpg",
+        "id" : "20-00-en-tur-på-bodega-hegnet",
+        "size" : "height3",
+        "time" : "20:00",
+        "text" : "En tur på bodega Hegnet"
+    },{
+        "url" : "/moments/20-15-19-år-og-mulithandicappet.html",
+        "asset" : "04-neculai-deloiu.jpg",
+        "id" : "20-15-19-år-og-mulithandicappet",
+        "size" : "height3",
+        "time" : "20:15",
+        "text" : "19 år og mulithandicappet"
+    }
+
+    ]
+}

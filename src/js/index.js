@@ -10,14 +10,6 @@ navigation.init = () => {
 
     const navigation = document.querySelector('.nav');
 
-    const shareSocial = (where) => {
-
-
-
-
-
-    } 
-
     let textCorrection = document.querySelector('.footer-content-aside');
     
     if(textCorrection)

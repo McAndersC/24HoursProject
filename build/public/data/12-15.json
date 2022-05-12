@@ -1,0 +1,77 @@
+{
+    "period" : "12:00 - 15:00",
+    "title" : "MIDDAGSTIMERNE",
+    "theme" : "light",
+    "id" : "slot05",
+    "slots" : [{
+        "url" : "moments/12-00-man-lærer-hele-livet.html",
+        "asset" : "08-lena-riiis.jpg",
+        "id" : "12-00-man-lærer-hele-livet",
+        "size" : "height",
+        "time" : "12:00",
+        "text" : "Man lærer hele livet"
+    },{
+        "url" : "moments/12-00-nål-uden-tråd.html",
+        "asset" : "04jacob-jep.jpg",
+        "id" : "12-00-nål-uden-tråd",
+        "size" : "height",
+        "time" : "12:00",
+        "text" : "Nål uden tråd"
+    },{
+        "url" : "moments/12-00-på-golfbanen-med-it-manden.html",
+        "asset" : "03-chantal-niel.jpg",
+        "id" : "12-00-på-golfbanen-med-it-manden",
+        "size" : "height3",
+        "time" : "12:00",
+        "text" : "På golfbanen med IT-manden"
+    },{
+        "url" : "moments/12-00-viborg-svømmehal.html",
+        "asset" : "04-william-hoeyer.jpg",
+        "id" : "12-00-viborg-svømmehal",
+        "size" : "height",
+        "time" : "12:00",
+        "text" : "Viborg svømmehal"
+    },{
+        "url" : "moments/12-00-skiltecentret-viborg.html",
+        "asset" : "10-rikke-lykkebo.jpg",
+        "id" : "12-00-skiltecentret-viborg",
+        "size" : "height3",
+        "time" : "12:00",
+        "text" : "SkilteCentret Viborg er en virksomhed "
+    },{
+        "url" : "/moments/12-13-hunde-salonen-viborg.html",
+        "asset" : "03-Michelle-Lei.jpg",
+        "id" : "12-13-hunde-salonen-viborg",
+        "size" : "height",
+        "time" : "12:13",
+        "text" : "Hunde-Salonen Viborg"
+    },{
+        "url" : "/moments/12-30-cafe-baghuset.html",
+        "asset" : "03-Mai-Wolff.jpg",
+        "id" : "12-30-cafe-baghuset",
+        "size" : "height3",
+        "time" : "12:30",
+        "text" : "Jeg besøgte en hyggelig café der hedder Cafe Baghuset"
+    },{
+        "url" : "/moments/13-00-ny-hverdag-for-lille-makar-og-hans-mor.html",
+        "asset" : "06-inna-stel.jpg",
+        "id" : "13-00-ny-hverdag-for-lille-makar-og-hans-mor",
+        "size" : "height",
+        "time" : "13:00",
+        "text" : "Ny hverdag for lille Makar og hans mor"
+    },{
+        "url" : "/moments/13-30-en-unormal-stille-eftermiddag-ved-genbrugsstationen.html",
+        "asset" : "05-tobias-niel.jpg",
+        "id" : "13-30-en-unormal-stille-eftermiddag-ved-genbrugsstationen",
+        "size" : "height",
+        "time" : "13:30",
+        "text" : "En unormal stille eftermiddag ved genbrugsstationen"
+    },{
+        "url" : "/moments/14-00-enlig-mor.html",
+        "asset" : "05AnneMari-Olas.jpg",
+        "id" : "14-00-enlig-mor",
+        "size" : "height3",
+        "time" : "14:00",
+        "text" : "Enlig mor"
+    }]
+}

@@ -1,0 +1,41 @@
+[
+    {
+        "period" : "03:00 - 06:00",
+        "title" : "MORGEN",
+        "theme" : "light",
+        "id" : "slot02",
+        "slots" : [{
+            "url" : "moments/03-05-vores-bager-i-viborg.html",
+            "asset" : "02-isabella-reinholdt.jpg",
+            "id" : "03-05-vores-bager-i-viborg",
+            "size" : "height",
+            "time" : "03:05",
+            "text" : "Vores Bager i Viborg"
+            },
+            {
+                "url" : "moments/04-00-der-er-lys-når-nattens-dæmoner-vågner.html",
+                "asset" : "02-karen-munk.jpg",
+                "id" : "04-00-der-er-lys-når-nattens-dæmoner-vågner",
+                "size" : "height3",
+                "time" : "04:00",
+                "text" : "Der er lys, når nattens dæmoner vågner"
+            },
+            {
+                "url" : "moments/05-30-rengøring-på-media-college.html",
+                "asset" : "04-isabella-reinholdt.jpg",
+                "id" : "05-30-rengøring-på-media-college",
+                "size" : "height3",
+                "time" : "04:00",
+                "text" : "Rengøring på Media College"
+            },
+            {
+                "url" : "moments/05.00-køkkenchefens-morgenrutine.html",
+                "asset" : "06-nadia-karv.jpg",
+                "id" : "05.00-køkkenchefens-morgenrutine",
+                "size" : "height",
+                "time" : "05:00",
+                "text" : "Køkkenchefens morgenrutine"
+            }
+        ]
+    }
+]

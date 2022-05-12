@@ -1,0 +1,154 @@
+{
+    "period" : "06:00 - 09:00",
+    "title" : "MORGEN",
+    "theme" : "light",
+    "id" : "slot03",
+    "slots" : [{
+        "url" : "/moments/06.00-nanna-isabella.html",
+        "asset" : "02-sarah-terp.jpg",
+        "id" : "06.00-nanna-isabella",
+        "size" : "height3",
+        "time" : "06:00",
+        "text" : "Nanna & Isabella"
+    },{
+        "url" : "moments/06-00-asmildkloster-køkken.html",
+        "asset" : "07-esther-roemer.jpg",
+        "id" : "06-00-asmildkloster-køkken",
+        "size" : "height",
+        "time" : "06:00",
+        "text" : "Asmildkloster Køkken"
+    },{
+        "url" : "moments/06-00-en-morgen-på-asmildkloster-landbrugsskole.html",
+        "asset" : "43-kirsten-loje.jpg",
+        "id" : "06-00-en-morgen-på-asmildkloster-landbrugsskole",
+        "size" : "height",
+        "time" : "06:00",
+        "text" : "En morgen på Asmildkloster landbrugsskole"
+    },{
+        "url" : "moments/06-10-thitis´-arbejdsdag-hos-bageren-i-føtex.html",
+        "asset" : "04-clarapetersenbager.jpg",
+        "id" : "06-10-thitis´-arbejdsdag-hos-bageren-i-føtex",
+        "size" : "height3",
+        "time" : "06:10",
+        "text" : "Thitis´ arbejdsdag hos bageren i Føtex."
+    },{
+        "url" : "/moments/06-11-tidlig-morgen-i-bybussen--viborg.html",
+        "asset" : "43-jonas-malm.jpg",
+        "id" : "06-11-tidlig-morgen-i-bybussen--viborg",
+        "size" : "height",
+        "time" : "06:11",
+        "text" : "Tidlig morgen i bybussen - Viborg"
+    },{
+        "url" : "/moments/06-23-s%C3%B8nderg%C3%A5rd--finderup.html",
+        "asset" : "09-sore-kjer.jpg",
+        "id" : "06-23-søndergård--finderup",
+        "size" : "height3",
+        "time" : "06:23",
+        "text" : "Søndergård - Finderup"
+    },{
+        "url" : "/moments/06-40-en-morgen-på-søndergaard.html",
+        "asset" : "04-KristineKjaer.jpg",
+        "id" : "06-40-en-morgen-på-søndergaard",
+        "size" : "height",
+        "time" : "06:40",
+        "text" : "En morgen på Søndergaard"
+    },{
+        "url" : "/moments/06-45-de-sortbrogede-mælkekøer.html",
+        "asset" : "02-julie-bech.jpg",
+        "id" : "06-45-de-sortbrogede-mælkekøer",
+        "size" : "height3",
+        "time" : "06:45",
+        "text" : "De sortbrogede mælkekøer"
+    },{
+        "url" : "/moments/07-00-peak-12-hotel.html",
+        "asset" : "05-emma-fisker.jpg",
+        "id" : "07-00-peak-12-hotel",
+        "size" : "height1",
+        "time" : "07:00",
+        "text" : "PEAK 12 HOTEL"
+    },{
+        "url" : "/moments/07-00-peak-12-hotel.html",
+        "asset" : "05-emma-fisker.jpg",
+        "id" : "07-00-peak-12-hotel",
+        "size" : "height1",
+        "time" : "07:00",
+        "text" : "PEAK 12 HOTEL"
+    },{
+        "url" : "/moments/07-10-jørgen-olsen-automobiler.html",
+        "asset" : "6-Ida-Lyng.jpg",
+        "id" : "07-10-jørgen-olsen-automobiler",
+        "size" : "height3",
+        "time" : "07:10",
+        "text" : "Jørgen Olsen Automobiler"
+    },{
+        "url" : "/moments/07-15-en-cool-oplevelse-hos-leth-steel.html",
+        "asset" : "03-clara-brog.jpg",
+        "id" : "07-15-en-cool-oplevelse-hos-leth-steel",
+        "size" : "height",
+        "time" : "07:15",
+        "text" : "En cool oplevelse hos Leth Steel"
+    },{
+        "url" : "/moments/07-30-bøssemager-per-langvad.html",
+        "asset" : "03-lucas-stock.jpg",
+        "id" : "07-30-bøssemager-per-langvad",
+        "size" : "height3",
+        "time" : "07:30",
+        "text" : "Bøssemager Per Langvad"
+    },{
+        "url" : "/moments/08-00-dokumentalist-på-rigsarkivet.html",
+        "asset" : "05-frederikke-flyv.jpg",
+        "id" : "08-00-dokumentalist-på-rigsarkivet",
+        "size" : "height3",
+        "time" : "08:00",
+        "text" : "Dokumentalist på Rigsarkivet"
+    },{
+        "url" : "/moments/08-00-mortens-autoværksted.html",
+        "asset" : "04-mathias-gade.jpg",
+        "id" : "08-00-mortens-autoværksted",
+        "size" : "height3",
+        "time" : "08:00",
+        "text" : "Mortens Autoværksted"
+    },{
+        "url" : "/moments/08-06-morgenrutinen-p%C3%A5-stutteri-torsbjerg.html",
+        "asset" : "02-emilie-vraa.jpg",
+        "id" : "08-06-morgenrutinen-på-stutteri-torsbjerg",
+        "size" : "height3",
+        "time" : "08:06",
+        "text" : "Morgenrutinen på Stutteri Torsbjerg"
+    },{
+        "url" : "/moments/08-10-på-vej.html",
+        "asset" : "03-loui-pede.jpg",
+        "id" : "08-10-på-vej",
+        "size" : "height3",
+        "time" : "08:10",
+        "text" : "På vej"
+    },{
+        "url" : "/moments/08-09-dyrl%C3%A6ge-bes%C3%B8g.html",
+        "asset" : "05-anne-mari.jpg",
+        "id" : "08-09-dyrlæge-besøg",
+        "size" : "height",
+        "time" : "08:09",
+        "text" : "Dyrlæge besøg"
+    },{
+        "url" : "/moments/08-30-f%C3%A6tter-johns-autoservice.html",
+        "asset" : "06-nicklas-bruu.jpg",
+        "id" : "08-30-fætter-johns-autoservice",
+        "size" : "height",
+        "time" : "08:30",
+        "text" : "Fætter John's Autoservice"
+    },{
+        "url" : "/moments/08-30-hald-ege-b%C3%B8rnehus.html",
+        "asset" : "06-line-wraa.jpg",
+        "id" : "08-30-hald-ege-børnehus",
+        "size" : "height",
+        "time" : "08:30",
+        "text" : "Hald Ege Børnehus"
+    },{
+        "url" : "/moments/08-40-klippestudiet.html",
+        "asset" : "07-esther-roemer.jpg",
+        "id" : "08-40-klippestudiet",
+        "size" : "height3",
+        "time" : "08:40",
+        "text" : "Klippestudiet"
+    }]
+}

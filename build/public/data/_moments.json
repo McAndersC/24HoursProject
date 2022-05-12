@@ -1,0 +1,53 @@
+{
+	"title": "En onsdag på Børsen",
+	"time": "21:00",
+	"date": "2022-05-11",
+	"square": "01-Stine-Rose.jpg",
+	"description": "Cafe Børsen er et af de ældste værtshuse i Viborg. Stedet er fyldt med god stemning og gode mennesker, der gerne vil dele deres liv med dig, hvis du giver dig tid.",
+	"author": "Stine Rosemunte",
+	"id": "21-00-en-onsdag-på-børsen",
+	"url": "/moments/21-00-en-onsdag-på-børsen.html",
+	"templates": [{
+			"template": "01",
+			"media": [{
+				"image": "02-Stine-Rose.jpg",
+				"text": "Kaj er kommet på Børsen direkte fra arbejde for at hygge sig med et par venner."
+			}]
+		},
+		{
+			"template": "01",
+			"media": [{
+				"image": "03-Stine-Rose.jpg",
+				"text": "En af de gode venner er Dorte. Kaj og Dorte har kendt hinanden i 45 år."
+			}]
+		},
+		{
+			"template": "01",
+			"media": [{
+				"image": "04-Stine-Rose.jpg",
+				"text": "Kaj drikker ikke alkohol, men får sort kaffe i sin lille julekop."
+			}]
+		},
+		{
+			"template": "02",
+			"media": [{
+				"image": "05-Stine-Rose.jpg",
+				"text": "Ivan står bag baren om onsdagen. Han deltager gerne i et slag Løgn sammen med gæsterne."
+			}]
+		},
+		{
+			"template": "01",
+			"media": [{
+				"image": "06-Stine-Rose.jpg",
+				"text": "Der er ingen dårlige tabere på Cafe Børsen… men det er da sjovest at vinde!"
+			}]
+		},
+		{
+			"template": "03",
+			"media": [{
+				"image": "07-Stine-Rose.jpg",
+				"text": "Lige meget, hvad du er til, kan du helt sikkert få det her. Bare spørg i baren."
+			}]
+		}
+	]
+}
