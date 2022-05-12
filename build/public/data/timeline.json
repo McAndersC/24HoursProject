@@ -97,13 +97,6 @@
             "size" : "height3",
             "time" : "04:00",
             "text" : "Rengøring på Media College"
-        },{
-            "url" : "moments/06-00-en-morgen-på-asmildkloster-landbrugsskole.html",
-            "asset" : "43-kirsten-loje.jpg",
-            "id" : "06-00-en-morgen-på-asmildkloster-landbrugsskole",
-            "size" : "height",
-            "time" : "06:00",
-            "text" : "En morgen på Asmildkloster landbrugsskole"
         }
     ]
     },
@@ -113,41 +106,289 @@
         "theme" : "light",
         "id" : "slot03",
         "slots" : [{
+            "url" : "/moments/06.00-nanna-isabella.html",
+            "asset" : "02-sarah-terp.jpg",
+            "id" : "06.00-nanna-isabella",
+            "size" : "height2",
+            "time" : "06:00",
+            "text" : "Nanna & Isabella"
+            }
+            ,{
             "url" : "moments/06-00-en-morgen-på-asmildkloster-landbrugsskole.html",
             "asset" : "43-kirsten-loje.jpg",
             "id" : "06-00-en-morgen-på-asmildkloster-landbrugsskole",
             "size" : "height",
             "time" : "06:00",
             "text" : "En morgen på Asmildkloster landbrugsskole"
+        },{
+            "url" : "moments/06-10-thitis´-arbejdsdag-hos-bageren-i-føtex.html",
+            "asset" : "04-clarapetersenbager.jpg",
+            "id" : "06-10-thitis´-arbejdsdag-hos-bageren-i-føtex",
+            "size" : "height3",
+            "time" : "06:10",
+            "text" : "Thitis´ arbejdsdag hos bageren i Føtex."
+        },{
+            "url" : "/moments/06-11-tidlig-morgen-i-bybussen--viborg.html",
+            "asset" : "43-jonas-malm.jpg",
+            "id" : "06-11-tidlig-morgen-i-bybussen--viborg",
+            "size" : "height1",
+            "time" : "06:11",
+            "text" : "Tidlig morgen i bybussen - Viborg"
+        },{
+            "url" : "/moments/06-23-s%C3%B8nderg%C3%A5rd--finderup.html",
+            "asset" : "09-sore-kjer.jpg",
+            "id" : "06-23-søndergård--finderup",
+            "size" : "height2",
+            "time" : "06:23",
+            "text" : "Søndergård - Finderup"
+        },{
+            "url" : "/moments/07-00-peak-12-hotel.html",
+            "asset" : "05-emma-fisker.jpg",
+            "id" : "07-00-peak-12-hotel",
+            "size" : "height1",
+            "time" : "07:00",
+            "text" : "PEAK 12 HOTEL"
+        },{
+            "url" : "/moments/07-30-bøssemager-per-langvad.html",
+            "asset" : "34-lucas-stock.jpg",
+            "id" : "07-30-bøssemager-per-langvad",
+            "size" : "height3",
+            "time" : "07:30",
+            "text" : "Bøssemager Per Langvad"
+        },{
+            "url" : "/moments/08-00-dokumentalist-p%C3%A5-rigsarkivet.html",
+            "asset" : "05-frederikke-flyv.jpg",
+            "id" : "08-00-dokumentalist-på-rigsarkivet",
+            "size" : "height2",
+            "time" : "08:00",
+            "text" : "Dokumentalist på Rigsarkivet"
+        },{
+            "url" : "/moments/08-06-morgenrutinen-p%C3%A5-stutteri-torsbjerg.html",
+            "asset" : "02-emilie-vraa.jpg",
+            "id" : "08-06-morgenrutinen-på-stutteri-torsbjerg",
+            "size" : "height2",
+            "time" : "08:06",
+            "text" : "Morgenrutinen på Stutteri Torsbjerg"
+        },{
+            "url" : "/moments/08-09-dyrl%C3%A6ge-bes%C3%B8g.html",
+            "asset" : "05-anne-mari.jpg",
+            "id" : "08-09-dyrlæge-besøg",
+            "size" : "height1",
+            "time" : "08:09",
+            "text" : "Dyrlæge besøg"
+        },{
+            "url" : "/moments/08-30-f%C3%A6tter-johns-autoservice.html",
+            "asset" : "06-nicklas-bruu.jpg",
+            "id" : "08-30-fætter-johns-autoservice",
+            "size" : "height2",
+            "time" : "08:30",
+            "text" : "Fætter John's Autoservice"
+        },{
+            "url" : "/moments/08-30-hald-ege-b%C3%B8rnehus.html",
+            "asset" : "06-line-wraa.jpg",
+            "id" : "08-30-hald-ege-børnehus",
+            "size" : "height2",
+            "time" : "08:30",
+            "text" : "Hald Ege Børnehus"
         }]
     },
     {
         "period" : "09:00 - 12:00",
         "title" : "FORMIDDAG",
         "theme" : "light",
-        "id" : "slot01",
-        "slots" : []
+        "id" : "slot04",
+        "slots" : [{
+            "url" : "/moments/09-00-holder-p%C3%A5-skelettet.html",
+            "asset" : "06-amalie-rosbjerg.jpg",
+            "id" : "09-00-holder-på-skelettet",
+            "size" : "height3",
+            "time" : "09:00",
+            "text" : "Holder på skelettet"
+        },{
+            "url" : "/moments/09-00-overlund-blomster.html",
+            "asset" : "05-kristine-kjae.jpg",
+            "id" : "09-00-overlund-blomster",
+            "size" : "height2",
+            "time" : "09:00",
+            "text" : "Overlund Blomster"
+        },{
+            "url" : "/moments/09-10-at-skabe-viborgs-byrum.html",
+            "asset" : "09-cecilie-work.jpg",
+            "id" : "09-10-at-skabe-viborgs-byrum",
+            "size" : "height2",
+            "time" : "09:10",
+            "text" : "At skabe Viborgs byrum"
+        },{
+            "url" : "/moments/09-17-anders-og-toke-p%C3%A5-guldkysten.html",
+            "asset" : "10-sore-kjer.jpg",
+            "id" : "09-17-anders-og-toke-på-guldkysten",
+            "size" : "height3",
+            "time" : "09:17",
+            "text" : "Anders og Toke på Guldkysten"
+        },{
+            "url" : "/moments/09-30-lene%E2%80%99s-kolonihavehus.html",
+            "asset" : "10-sarah-terp.jpg",
+            "id" : "09-30-lene’s-kolonihavehus",
+            "size" : "height1",
+            "time" : "09:30",
+            "text" : "Lene’s Kolonihavehus"
+        },{
+            "url" : "/moments/10-00-psykologcentret.html",
+            "asset" : "03-frederikke-flyv.jpg",
+            "id" : "10-00-psykologcentret",
+            "size" : "height1",
+            "time" : "10:00",
+            "text" : "PsykologCentret"
+        },{
+            "url" : "/moments/10-05-de-s%C3%B8de-frivillige-i-kirkens-korsh%C3%A6r.html",
+            "asset" : "05-kirsten-loje.jpg",
+            "id" : "10-05-de-søde-frivillige-i-kirkens-korshær",
+            "size" : "height1",
+            "time" : "10:05",
+            "text" : "De søde frivillige i Kirkens Korshær"
+        },{
+            "url" : "/moments/10-34-et-h%C3%A5ndv%C3%A6rk-der-k%C3%A6les-for.html",
+            "asset" : "05-emilie-vraa.jpg",
+            "id" : "10-34-et-håndværk-der-kæles-for",
+            "size" : "height2",
+            "time" : "10:34",
+            "text" : "Et håndværk der kæles for"
+        },{
+            "url" : "/moments/10-37-maria-i-regnskoven.html",
+            "asset" : "05-jonas-malm.jpg",
+            "id" : "10-37-maria-i-regnskoven",
+            "size" : "height3",
+            "time" : "10:37",
+            "text" : "Maria i regnskoven"
+        },{
+            "url" : "/moments/10-45-mini-regnskov.html",
+            "asset" : "08-line-wraa.jpg",
+            "id" : "10-45-mini-regnskov",
+            "size" : "height1",
+            "time" : "10:45",
+            "text" : "Mini regnskov"
+        },{
+            "url" : "/moments/11-00-musik-ambulancen.html",
+            "asset" : "06-nicklas-bruu.jpg",
+            "id" : "11-00-musik-ambulancen",
+            "size" : "height2",
+            "time" : "11:00",
+            "text" : "Musik Ambulancen"
+        },{
+            "url" : "/moments/11-15-rent-a-fixer.html",
+            "asset" : "05-oliver-kohr.jpg",
+            "id" : "11-15-rent-a-fixer",
+            "size" : "height3",
+            "time" : "11:15",
+            "text" : "Rent a Fixer"
+        },{
+            "url" : "/moments/11-59-oprigtige-pensionister.html",
+            "asset" : "1159-vineta-gail-04.jpg",
+            "id" : "11-59-oprigtige-pensionister",
+            "size" : "height3",
+            "time" : "11:59",
+            "text" : "Oprigtige pensionister"
+        }]
     },
     {
         "period" : "12:00 - 15:00",
         "title" : "MIDDAGSTIMERNE",
         "theme" : "light",
-        "id" : "slot01",
-        "slots" : []
+        "id" : "slot05",
+        "slots" : [{
+            "url" : "moments/12-00-viborg-sv%C3%B8mmehal.html",
+            "asset" : "02-william-hoeyer.jpg",
+            "id" : "12-00-viborg-svømmehal",
+            "size" : "height3",
+            "time" : "12:00",
+            "text" : "Viborg svømmehal"
+        },{
+            "url" : "/moments/12-13-hunde-salonen-viborg.html",
+            "asset" : "05-Michelle-Lei.jpg",
+            "id" : "12-13-hunde-salonen-viborg",
+            "size" : "height1",
+            "time" : "12:12",
+            "text" : "Hunde-Salonen Viborg"
+        },{
+            "url" : "/moments/14-00-enlig-mor.html",
+            "asset" : "05AnneMari-Olas.jpg",
+            "id" : "14-00-enlig-mor",
+            "size" : "height3",
+            "time" : "14:00",
+            "text" : "Enlig mor"
+        }]
     },
     {
         "period" : "15:00 - 18:00",
         "title" : "EFTERMIDDAG",
         "theme" : "light",
-        "id" : "slot01",
-        "slots" : []
+        "id" : "slot06",
+        "slots" : [{
+            "url" : "/moments/15-00-game-streetmekka-viborg.html",
+            "asset" : "04-william-hoeyer.jpg",
+            "id" : "15-00-game-streetmekka-viborg",
+            "size" : "height1",
+            "time" : "15:00",
+            "text" : "Game streetmekka Viborg"
+        },{
+            "url" : "/moments/15-05-suset-fra-game-street-mekka.html",
+            "asset" : "06-emma-ras.jpg",
+            "id" : "15-05-suset-fra-game-street-mekka",
+            "size" : "height3",
+            "time" : "15:05",
+            "text" : "Suset fra Game Street Mekka"
+        },{
+            "url" : "/moments/15-30-springundervisning-med-4-elever.html",
+            "asset" : "03-chantal-niel.jpg",
+            "id" : "15-30-springundervisning-med-4-elever",
+            "size" : "height2",
+            "time" : "15:30",
+            "text" : "Springundervisning med 4 elever"
+        },{
+            "url" : "/moments/16-11-jma-snedkeri.html",
+            "asset" : "43-bastian-ille.jpg",
+            "id" : "16-11-jma-snedkeri",
+            "size" : "height1",
+            "time" : "16:11",
+            "text" : "JMA Snedkeri"
+        },{
+            "url" : "/moments/16-15-p%C3%A5-to-due-listen.html",
+            "asset" : "03-jacob-jep.jpg",
+            "id" : "16-15-på-to-due-listen",
+            "size" : "height3",
+            "time" : "16:15",
+            "text" : "På to 'due' listen"
+        },{
+            "url" : "/moments/16-42-viborg-hundehotel.html",
+            "asset" : "07-Michelle-Lei.jpg",
+            "id" : "16-42-viborg-hundehotel",
+            "size" : "height2",
+            "time" : "16:42",
+            "text" : "Viborg Hundehotel"
+        }]
     },
     {
         "period" : "18:00 - 21:00",
         "title" : "TIDLIG AFTEN",
         "theme" : "light",
-        "id" : "slot01",
-        "slots" : []
+        "id" : "slot07",
+        "slots" : [{
+            "url" : "/moments/18-00-aftenskole-med-susanne.html",
+            "asset" : "07-michaella-niel.jpg",
+            "id" : "18-00-aftenskole-med-susanne",
+            "size" : "height2",
+            "time" : "18:00",
+            "text" : "Aftenskole med Susanne"
+        },{
+            "url" : "/moments/18-15-behind-the-scenes-p%C3%A5-one-day-viborg.html",
+            "asset" : "03-melissa-ras.jpg",
+            "id" : "18-15-behind-the-scenes-på-one-day-viborg",
+            "size" : "height1",
+            "time" : "18:15",
+            "text" : "Behind the scenes på ONE DAY VIBORG"
+        }
+    
+        ]
     },
     {
         "period" : "21:00 - 24:00",

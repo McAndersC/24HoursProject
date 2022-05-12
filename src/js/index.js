@@ -10,6 +10,22 @@ navigation.init = () => {
 
     const navigation = document.querySelector('.nav');
 
+    const shareSocial = (where) => {
+
+
+
+
+
+    } 
+
+    let textCorrection = document.querySelector('.footer-content-aside');
+    
+    if(textCorrection)
+    {
+        textCorrection.children[2].textContent = 'Over 60 fotografelever har optaget mere end 1000 billeder fra Viborg over hele døgnet d.11 maj 2022, mens skolens webudvikler har produceret hjemmesiden.'
+    }
+    
+
     if(navigation) {
 
         const navigationBurger = navigation.querySelectorAll('.nav-burger');
@@ -19,6 +35,48 @@ navigation.init = () => {
 
         const socialActions = navigation.querySelectorAll('.social-action');
         const socialAction = navigation.querySelector('.share');
+        const footerSocialAction = document.querySelectorAll('.someIcon');
+
+
+        if(footerSocialAction) {
+
+            footerSocialAction.forEach((icon) => {
+                icon.addEventListener('click', (e) => {
+          
+            
+                    if(e.target.src.indexOf('facebook') !== -1) {
+                        e.target.addEventListener('click', () => {
+                            const current_url = window.location.href;
+                            let window_size = "width=565,height=569";
+                            let fb_shareUrl = "https://www.facebook.com/sharer/sharer.php?u="+ current_url;
+                           
+                            window.open(fb_shareUrl,"","menubar=no,resizeable=yes,scrollbars=yes,"+window_size);
+                            return false;
+                        });
+                    } else if(e.target.src.indexOf('instagram') !== -1) {
+                        e.target.addEventListener('click', () => {
+                            const current_url = window.location.href;
+                            let window_size = "width=565,height=569";
+                            let tw_shareUrl = "https://instagram.com/share?url=" + current_url;
+                      
+                            window.open(tw_shareUrl,"","menubar=no,resizeable=yes,scrollbars=yes,"+window_size);
+                            return false;
+                        });
+                    } else if(e.target.src.indexOf('linkedin') !== -1) {
+                        e.target.addEventListener('click', () => {
+                            const current_url = window.location.href;
+                            let window_size = "width=565,height=569";
+                            let lnk_shareUrl = "https://www.linkedin.com/share?url=" + current_url;
+                      
+                            window.open(lnk_shareUrl,"","menubar=no,resizeable=yes,scrollbars=yes,"+window_size);
+                            return false;
+                        });
+                    };
+
+                })
+            })
+
+        }
 
         socialAction.addEventListener('click', (e) => {
             e.target.classList.toggle('active')
