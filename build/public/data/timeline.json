@@ -196,15 +196,129 @@
         "period" : "09:00 - 12:00",
         "title" : "FORMIDDAG",
         "theme" : "light",
-        "id" : "slot01",
-        "slots" : []
+        "id" : "slot04",
+        "slots" : [{
+            "url" : "/moments/09-00-holder-p%C3%A5-skelettet.html",
+            "asset" : "06-amalie-rosbjerg.jpg",
+            "id" : "09-00-holder-på-skelettet",
+            "size" : "height3",
+            "time" : "09:00",
+            "text" : "Holder på skelettet"
+        },{
+            "url" : "/moments/09-00-overlund-blomster.html",
+            "asset" : "05-kristine-kjae.jpg",
+            "id" : "09-00-overlund-blomster",
+            "size" : "height2",
+            "time" : "09:00",
+            "text" : "Overlund Blomster"
+        },{
+            "url" : "/moments/09-10-at-skabe-viborgs-byrum.html",
+            "asset" : "09-cecilie-work.jpg",
+            "id" : "09-10-at-skabe-viborgs-byrum",
+            "size" : "height2",
+            "time" : "09:10",
+            "text" : "At skabe Viborgs byrum"
+        },{
+            "url" : "/moments/09-17-anders-og-toke-p%C3%A5-guldkysten.html",
+            "asset" : "10-sore-kjer.jpg",
+            "id" : "09-17-anders-og-toke-på-guldkysten",
+            "size" : "height3",
+            "time" : "09:17",
+            "text" : "Anders og Toke på Guldkysten"
+        },{
+            "url" : "/moments/09-30-lene%E2%80%99s-kolonihavehus.html",
+            "asset" : "10-sarah-terp.jpg",
+            "id" : "09-30-lene’s-kolonihavehus",
+            "size" : "height1",
+            "time" : "09:30",
+            "text" : "Lene’s Kolonihavehus"
+        },{
+            "url" : "/moments/10-00-psykologcentret.html",
+            "asset" : "03-frederikke-flyv.jpg",
+            "id" : "10-00-psykologcentret",
+            "size" : "height1",
+            "time" : "10:00",
+            "text" : "PsykologCentret"
+        },{
+            "url" : "/moments/10-05-de-s%C3%B8de-frivillige-i-kirkens-korsh%C3%A6r.html",
+            "asset" : "05-kirsten-loje.jpg",
+            "id" : "10-05-de-søde-frivillige-i-kirkens-korshær",
+            "size" : "height1",
+            "time" : "10:05",
+            "text" : "De søde frivillige i Kirkens Korshær"
+        },{
+            "url" : "/moments/10-34-et-h%C3%A5ndv%C3%A6rk-der-k%C3%A6les-for.html",
+            "asset" : "05-emilie-vraa.jpg",
+            "id" : "10-34-et-håndværk-der-kæles-for",
+            "size" : "height2",
+            "time" : "10:34",
+            "text" : "Et håndværk der kæles for"
+        },{
+            "url" : "/moments/10-37-maria-i-regnskoven.html",
+            "asset" : "05-jonas-malm.jpg",
+            "id" : "10-37-maria-i-regnskoven",
+            "size" : "height3",
+            "time" : "10:37",
+            "text" : "Maria i regnskoven"
+        },{
+            "url" : "/moments/10-45-mini-regnskov.html",
+            "asset" : "08-line-wraa.jpg",
+            "id" : "10-45-mini-regnskov",
+            "size" : "height1",
+            "time" : "10:45",
+            "text" : "Mini regnskov"
+        },{
+            "url" : "/moments/11-00-musik-ambulancen.html",
+            "asset" : "06-nicklas-bruu.jpg",
+            "id" : "11-00-musik-ambulancen",
+            "size" : "height2",
+            "time" : "11:00",
+            "text" : "Musik Ambulancen"
+        },{
+            "url" : "/moments/11-15-rent-a-fixer.html",
+            "asset" : "05-oliver-kohr.jpg",
+            "id" : "11-15-rent-a-fixer",
+            "size" : "height3",
+            "time" : "11:15",
+            "text" : "Rent a Fixer"
+        },{
+            "url" : "/moments/11-59-oprigtige-pensionister.html",
+            "asset" : "1159-vineta-gail-04.jpg",
+            "id" : "11-59-oprigtige-pensionister",
+            "size" : "height3",
+            "time" : "11:59",
+            "text" : "Oprigtige pensionister"
+        }]
     },
     {
         "period" : "12:00 - 15:00",
         "title" : "MIDDAGSTIMERNE",
         "theme" : "light",
-        "id" : "slot01",
-        "slots" : []
+        "id" : "slot05",
+        "slots" : [{
+            "url" : "moments/12-00-viborg-sv%C3%B8mmehal.html",
+            "asset" : "02-william-hoeyer.jpg",
+            "id" : "12-00-viborg-svømmehal",
+            "size" : "height3",
+            "time" : "12:00",
+            "text" : "Viborg svømmehal"
+        },{
+            "url" : "/moments/12-13-hunde-salonen-viborg.html",
+            "asset" : "05-Michelle-Lei.jpg",
+            "id" : "12-13-hunde-salonen-viborg",
+            "size" : "height1",
+            "time" : "12:12",
+            "text" : "Hunde-Salonen Viborg"
+        },{
+            "url" : "/moments/14-00-enlig-mor.html",
+            "asset" : "05AnneMari-Olas.jpg",
+            "id" : "14-00-enlig-mor",
+            "size" : "height3",
+            "time" : "14:00",
+            "text" : "Enlig mor"
+        }
+    
+        ]
     },
     {
         "period" : "15:00 - 18:00",
