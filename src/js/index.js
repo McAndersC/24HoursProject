@@ -142,10 +142,11 @@ navigation.init = () => {
             if(compareValue < 0) {
 
                 if(!navigation.classList.contains('hide')) {
+
                     navigation.classList.add('hide')
                     navigation.classList.remove('active')
-                  
                     socialAction.classList.remove('active')
+                    
                 }
                 
             } else if(compareValue >= 0) {

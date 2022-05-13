@@ -12,7 +12,7 @@
 }
 
 .width-setting-box {
-
+    -webkit-transform: translateZ(0);
     width: 75vw;
     display: flex;
     justify-content: center;
@@ -28,6 +28,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
 
 }
 
@@ -154,6 +155,7 @@
         animation: transparencyLayer 0s 1s forwards;
         background-color: black;
         height: 24vw;
+
     }
     .transparency-layer-mobile-day {
         animation: transparencyLayer 0s 2s forwards;
@@ -168,7 +170,8 @@
 
     /* Cover text mobile */
     .text-container {
-        height: 67vw;
+        height: 66vw;
+        
       }
     .one-day {
         display: none;
@@ -178,25 +181,32 @@
         display: block;
         font-size: 24vw;
         animation: oneDayAnimation 0s .7s forwards;
-        height: 24vw;  
+        height: 25vw;  
+        width: 101%;
         background-color: black;
         color: white; 
         mix-blend-mode: multiply;
+         -webkit-transform: translateZ(0); 
+        
     }
     .day {
         display: block;
         font-size: 24vw;
         animation: oneDayAnimation 0s .7s forwards;
-        height: 24vw; 
+        height: 25vw; 
+        width: 101%;
         background-color: black;
         color: white; 
         mix-blend-mode: multiply;
+        -webkit-transform: translateZ(0); 
     }
     .viborg {
         font-size: 19vw;
         padding-left: 1.4vw;
         animation: oneDayAnimation 0s .7s forwards;
-        height: 19vw; 
+        height: 20vw; 
+        width: 101%;
+        -webkit-transform: translateZ(0); 
     }
 
 
@@ -210,9 +220,13 @@
         display: none;
     }
     .one-box {
+        backface-visibility: hidden;
+        transform: translateZ(0);
         position: relative;
         width: 0px;
         height: 24vw;
+        line-height: 24vh;
+        z-index: inherit;
         background-color: black;
         animation: movingBoxesMobile 1s .5s cubic-bezier(.74, .06, .4, .92) forwards;
     }
