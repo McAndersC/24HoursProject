@@ -225,6 +225,13 @@
             "time" : "08:00",
             "text" : "Dokumentalist på Rigsarkivet"
         },{
+            "url" : "/moments/08-00-ukrainske-flygtninge-besøger-efterskole.html",
+            "asset" : "03-Inna-Signe-.jpg",
+            "id" : "08-00-ukrainske-flygtninge-besøger-efterskole",
+            "size" : "height3",
+            "time" : "08:00",
+            "text" : "Ukrainske flygtninge besøger efterskole"
+        },{
             "url" : "/moments/08-00-mortens-autoværksted.html",
             "asset" : "04-mathias-gade.jpg",
             "id" : "08-00-mortens-autoværksted",
@@ -466,6 +473,13 @@
             "size" : "height3",
             "time" : "12:30",
             "text" : "Jeg besøgte en hyggelig café der hedder Cafe Baghuset"
+        },{
+            "url" : "/moments/12-30-tag-ikke-fejl-af-oles-autoservice.html",
+            "asset" : "05-ras-wang.jpg",
+            "id" : "12-30-tag-ikke-fejl-af-oles-autoservice",
+            "size" : "height",
+            "time" : "12:30",
+            "text" : "Tag ikke fejl af Ole's Autoservice"
         },{
             "url" : "/moments/13-00-ny-hverdag-for-lille-makar-og-hans-mor.html",
             "asset" : "06-inna-stel.jpg",

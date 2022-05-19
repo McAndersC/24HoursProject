@@ -1,50 +1,94 @@
 const credits = {};
 
-credits.init = () => {
+credits.init = async () => {
 
     let creditsPage = document.querySelector('.credits-page');
 
-    if(creditsPage)
-    {
-        console.log('Run Credit Page.')
+        if(!creditsPage) {
 
-        var grid = document.querySelector('.grid');
-        var grid1 = document.querySelector('.grid1');
-
-        var msnry1 = new Masonry( grid1, {
-            // options...
-            itemSelector: '.grid-item1'
-        });
-
-        // init with selector
-        var msnry = new Masonry( grid, {
-            itemSelector: '.grid-item'
-        });
-
-        console.log('Run Credit Page.', grid, grid1, msnry);
+            return false;
+    
+        }
+    
+        try {
+    
+            const timelineData = await fetch('/public/data/students.json?' + Date.now()).then((response) => response.json()).then((response) => {
+                return response;
+            });
+    
+            creditsPage.innerHTML = '';
         
-        msnry.layout();
-        msnry1.layout();
-
-        let picturesList = document.querySelectorAll(".grid-item");
-
-        window.addEventListener("scroll", function() {
         
-            for (var i = 0; i < picturesList.length; i++) {
-                var distanceInFrame = picturesList[i].getBoundingClientRect().top - window.innerHeight;
+            const slotTemplate = (slot) => {
+                return `<section>
+    
+                            <h1 class="h1 ${slot.theme}">${slot.period} <span class="h1-fat">${slot.title}</span></h1>
+    
+                            <div class="grid-credits ${slot.id}">
 
-                if (distanceInFrame < 100) {
-                    picturesList[i].style.marginTop = "0px"
-                } 
-                else if (distanceInFrame > 100 - window.innerHeight) {
-                    let random = Math.floor(Math.random() * 150) + 70;
-                    
-                    picturesList[i].style.marginTop = random+"px"
-                }   
+                                <div class="grid-credits-sizer"></div>
+  
+                                ${slot.slots.map( (timeslot) => {
+    
+                                    return `<div class="grid-credits-item ${timeslot.format}">
+                                                <div class="grid-item-caption">
+                                                    <div class="grid-item-info info-time">
+                                                      ${timeslot.name}
+                                               
+                                                    </div>
+                                                    <div class="grid-item-info info-text">
+                                                      ${timeslot.position}    
+                                                  </div>
+                                                </div>   
+                                    
+                                                <img src="../public/assets/portraits/${timeslot.asset}" />
+                                       
+                                            </div>`
+                                }).join('')}
+    
+                            </div> 
+    
+                        </section>` 
             }
-            
-        })
-    }
+        
+    
+        
+            timelineData.forEach((slot) => {
+        
+                creditsPage.insertAdjacentHTML('beforeend', slotTemplate(slot))
+        
+            })
+        
+            timelineData.forEach((slot) => {
+        
+                // const prepageMasonry = new Masonry( '.' + slot.id, {
+                //     itemSelector: '.grid-credits-item',
+                //     columnWidth: '.grid-credits-sizer',
+                //     percentPosition: true
+                // }).layout();
+
+                imagesLoaded( '.' + slot.id, function() {
+                    // init Isotope after all images have loaded
+                    const prepageMasonry = new Masonry( '.' + slot.id, {
+                        itemSelector: '.grid-credits-item',
+
+                        percentPosition: true
+                    }).layout();
+                });
+                
+            })
+
+            window.addEventListener("scroll", function() {
+        
+    
+            })
+    
+        } catch (error) {
+    
+            console.error(error)
+        }
+    
+    
 
 
 }

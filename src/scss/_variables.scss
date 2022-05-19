@@ -19,7 +19,13 @@ $font-family : "Rubik", sans-serif;
 // Prepage Variables
 $prepage-info-background-color : rgba($color: $color-24hours-black, $alpha: .3);
 $prepage-info-text-color : #fff;
+$prepage-info-text-color : #fff;
 $prepage-info-height : 40px;
+
+$credits-info-background-color : rgba($color: $color-24hours-orange, $alpha: .8);
+$credits-info-text-color : #fff;
+$credits-info-text-color : #fff;
+$credits-info-height : 40px;
 
 // Breakpoints
 $breakpoint_sm : 380px;

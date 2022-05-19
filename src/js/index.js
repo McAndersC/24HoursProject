@@ -10,14 +10,6 @@ navigation.init = () => {
 
     const navigation = document.querySelector('.nav');
 
-    let textCorrection = document.querySelector('.footer-content-aside');
-    
-    if(textCorrection)
-    {
-        textCorrection.children[2].textContent = 'Over 60 fotografelever har optaget mere end 1000 billeder fra Viborg over hele døgnet d.11 maj 2022, mens skolens webudvikler har produceret hjemmesiden.'
-    }
-    
-
     if(navigation) {
 
         const navigationBurger = navigation.querySelectorAll('.nav-burger');
@@ -80,7 +72,7 @@ navigation.init = () => {
                 
                 const current_url = window.location.href;
                 let window_size = "width=565,height=569";
-
+                
                 switch (action.dataset.action) {
                     case 'fb':
                             action.addEventListener('click', () => {
@@ -93,21 +85,27 @@ navigation.init = () => {
                         break;
                         
                     case 'insta':
+                            
                             action.addEventListener('click', () => {
+
                                 let tw_shareUrl = "https://instagram.com/share?url=" + current_url;
                           
                                 window.open(tw_shareUrl,"","menubar=no,resizeable=yes,scrollbars=yes,"+window_size);
                                 return false;
+
                             });
+
                         break;               
                     
                     case 'linkedIn':
+
                             action.addEventListener('click', () => {
                                 let lnk_shareUrl = "https://www.linkedin.com/share?url=" + current_url;
                           
                                 window.open(lnk_shareUrl,"","menubar=no,resizeable=yes,scrollbars=yes,"+window_size);
                                 return false;
                             });
+
                         break;
                 
                     default:

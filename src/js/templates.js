@@ -5,10 +5,10 @@ templates.template01 = (moment, template) => {
     return `
     <section class="template1">
         <img src="../public/assets/moments/${moment.id}/${template.media[0].image}" class="temp1-pic1" alt="">
-        <div class="text-pic1">${template.media[0].text}</div>
+        <div class="text-pic1"><span class="square-bullet"></span>${template.media[0].text}</div>
         ${template.media.length === 1 ? '' : `
         <img src="../public/assets/moments/${moment.id}/${template.media[1].image}" class="temp1-pic2" alt="">
-        <div class="text-pic2">${template.media[1].text}</div>`}
+        <div class="text-pic2"><span class="square-bullet"></span>${template.media[1].text}</div>`}
     </section>
     `
 }
@@ -17,7 +17,7 @@ templates.template02 = (moment, template) => {
     return `
     <section class="template2">
         <img src="../public/assets/moments/${moment.id}/${template.media[0].image}" class="temp2-pic1" alt="">
-        <div class="text-pic1">${template.media[0].text}</div>
+        <div class="text-pic1"><span class="square-bullet"></span>${template.media[0].text}</div>
     </section>
     `
 }
@@ -26,7 +26,7 @@ templates.template03 = (moment, template) => {
     return `
     <section class="template3">
         <img src="../public/assets/moments/${moment.id}/${template.media[0].image}" class="temp3-pic1" alt="">
-        <div class="text-pic1">${template.media[0].text}</div>
+        <div class="text-pic1"><span class="square-bullet"></span>${template.media[0].text}</div>
     </section>
     `
 }

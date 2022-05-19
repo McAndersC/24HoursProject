@@ -1,0 +1,145 @@
+.credits-page {
+    background-color: #f86848;
+    background-color: red;
+// Maso
+  .grid-credits-sizer {
+    width: 100%;
+  }
+
+  /* clear fix */
+  .grid-credits:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .gutter-credits-sizer { 
+      width: 0; 
+  }
+  
+  .grid-credits {
+  
+      margin-bottom: 80px;
+      min-height: 100vh;
+  }
+  
+  .grid-credits-item {
+  
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      cursor: pointer;
+      bottom: 0;
+      
+      img {
+
+          display: block;
+          object-fit: cover;
+          width: 100%;
+          z-index: 2;
+          transition: transform 3s ease;
+  
+      }
+  
+      .grid-item-caption {
+          display: flex;
+          justify-content: left;
+          flex-direction: column;
+          position: absolute;
+          bottom: 0;
+          z-index: 25;
+          width : 100%;
+          background-color: $credits-info-background-color;
+          color:$credits-info-text-color;
+          padding: 6px 14px;
+        
+      }
+  
+
+      .grid-item-info {
+  
+          
+          // bottom: -$credits-info-height;
+          bottom: 0px;
+          transition: bottom 200ms ease-in-out;
+  
+          &.info-time {
+              font-weight: 700;
+          }
+  
+          &.info-text {
+              color: #fff;
+          }       
+      
+      }
+  
+      &:hover {
+           
+          .grid-item-info {
+  
+              bottom : 0;
+       
+          }
+          img {
+  
+            //   transform: scale(1.5);
+  
+          }
+      
+      }
+
+      
+  
+  
+  }
+  
+  @media (min-width: $breakpoint_md) {
+      .credits {
+          // background-image: linear-gradient(
+          //     black,
+          //     black,
+          //     black,
+          //     black,
+          //     #ebebeb,  
+          //     #ebebeb,
+          //     #ebebeb,
+          //     black,
+          //     black,
+          //     black,
+          //     );
+              width: 100%;    
+      }
+  }
+  
+  
+  
+  @media (min-width: $breakpoint_sm) and (max-width: $breakpoint_md) {
+      .grid-credits-sizer {
+          width: 50%
+      }
+      
+      .grid-credits-item {
+          width: 50%;
+      }
+  }
+  
+  @media (min-width: $breakpoint_md) and (max-width: $breakpoint_lg) {
+      .grid-credits-sizer {
+          width: 33.3%
+      }
+      
+      .grid-credits-item {
+          width: 33.3%;
+      }
+  }
+  
+  @media (min-width: $breakpoint_lg) {
+      .grid-credits-sizer {
+          width: 20%
+      }
+      
+      .grid-credits-item {
+          width: 20%;
+      }
+  }
+}
