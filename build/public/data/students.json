@@ -1,7 +1,7 @@
 [
     {
         "period" : "",
-        "title" : "Foto Elever",
+        "title" : "Fotograf- og webudviklerelever",
         "theme" : "light",
         "id" : "slot01",
         "slots" : [
@@ -25,17 +25,30 @@
             },
             {
                 "url" : "",
+                "asset" : "34-julie-bech.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Julie Bech",
+                "position" : "Fotograf Elev",
+                "moments" : [
+                    {
+                        "title" : "Fødeafdelingen når vi andre sover",
+                        "id" : "00-00-fødeafdelingen-når-vi-andre-sover"
+                    },
+                    {
+                        "title" : "De sortbrogede mælkekøer",
+                        "id" : "06-45-de-sortbrogede-mælkekøer"
+                    }
+                ]
+            },
+            {
+                "url" : "",
                 "asset" : "43-andreea-matei.jpg",
                 "id" : "",
                 "format" : "f43",
                 "name" : "Andreea Matei",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -44,12 +57,7 @@
                 "format" : "f43",
                 "name" : "Asmus Krom",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -58,12 +66,7 @@
                 "format" : "f34",
                 "name" : "Nicoline B. Ernstorn",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -72,12 +75,7 @@
                 "format" : "f34",
                 "name" : "Karen Munk",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -86,12 +84,7 @@
                 "format" : "f43",
                 "name" : "Sofie Lind",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -100,12 +93,7 @@
                 "format" : "f34",
                 "name" : "Lucas Stock",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -114,12 +102,7 @@
                 "format" : "f43",
                 "name" : "Isabella Reinholdt",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -128,12 +111,7 @@
                 "format" : "f34",
                 "name" : "Nadia Karvonen",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -142,12 +120,7 @@
                 "format" : "f34",
                 "name" : "Sarah Terp",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -156,12 +129,7 @@
                 "format" : "f43",
                 "name" : "Esther Rømer",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -170,12 +138,7 @@
                 "format" : "f43",
                 "name" : "Kirsten Hulbæk Løje",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -184,12 +147,7 @@
                 "format" : "f34",
                 "name" : "Jonas Malmberg",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -198,12 +156,7 @@
                 "format" : "f34",
                 "name" : "Søren Kjergaard",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -212,12 +165,7 @@
                 "format" : "f43",
                 "name" : "Kristine Rose Kjær",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -226,12 +174,7 @@
                 "format" : "f43",
                 "name" : "Ida Lyng Jønssons",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -240,12 +183,7 @@
                 "format" : "f34",
                 "name" : "Clara Brøgger Poulsen",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -254,12 +192,7 @@
                 "format" : "f34",
                 "name" : "Frederikke Bjerre Flyvholm ",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -268,12 +201,7 @@
                 "format" : "f43",
                 "name" : "Mathias Peldrup Gade",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -282,12 +210,7 @@
                 "format" : "f43",
                 "name" : "Signe Goldmann",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -296,12 +219,7 @@
                 "format" : "f43",
                 "name" : "Inna Fangel",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -310,12 +228,7 @@
                 "format" : "f34",
                 "name" : "Emilie Vraa",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -324,12 +237,7 @@
                 "format" : "f34",
                 "name" : "Jonas Malmberg",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -338,12 +246,7 @@
                 "format" : "f34",
                 "name" : "Mai Nyby Wolff",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -352,12 +255,7 @@
                 "format" : "f34",
                 "name" : "Inna Stelmakh",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -366,12 +264,7 @@
                 "format" : "f43",
                 "name" : "Vineta Gailite",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -380,12 +273,7 @@
                 "format" : "f34",
                 "name" : "Nicklas Garde Bruun",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -394,12 +282,7 @@
                 "format" : "f34",
                 "name" : "Loui Pedersen",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -408,26 +291,7 @@
                 "format" : "f34",
                 "name" : "Oliver Kohrtz",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
-            },
-            {
-                "url" : "",
-                "asset" : "34-oliver-kohr.jpg",
-                "id" : "",
-                "format" : "f34",
-                "name" : "Oliver Kohrtz",
-                "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -436,12 +300,7 @@
                 "format" : "f43",
                 "name" : "Line Hjeresen Wraae",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -450,12 +309,7 @@
                 "format" : "f34",
                 "name" : "Amalie Sikjær Rosbjerg",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -464,12 +318,7 @@
                 "format" : "f43",
                 "name" : "Cecilie Elmbæk Work Buhelt",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -478,12 +327,7 @@
                 "format" : "f34",
                 "name" : "Lena Riis",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -492,12 +336,7 @@
                 "format" : "f43",
                 "name" : "Jacob Jepsen",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -506,12 +345,7 @@
                 "format" : "f43",
                 "name" : "Chantal Nielsen",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -520,12 +354,7 @@
                 "format" : "f34",
                 "name" : "Rikke Lykkebo Pedersen",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -534,12 +363,7 @@
                 "format" : "f34",
                 "name" : "William Høyer Holtsø",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -548,12 +372,7 @@
                 "format" : "f43",
                 "name" : "Michelle Lei",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -562,12 +381,7 @@
                 "format" : "f43",
                 "name" : "Rasmus Wang Kaa",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -576,12 +390,7 @@
                 "format" : "f43",
                 "name" : "Tobias Nielsen",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -590,12 +399,7 @@
                 "format" : "f34",
                 "name" : "Anne Mari Olasveen",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -604,12 +408,7 @@
                 "format" : "f34",
                 "name" : "Poi Wipaporn Saiwaeo",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -618,12 +417,7 @@
                 "format" : "f34",
                 "name" : "Michaella Nielsen",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -632,12 +426,7 @@
                 "format" : "f43",
                 "name" : "Stine Rosemunte",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -646,12 +435,7 @@
                 "format" : "f43",
                 "name" : "Neculai Deloiu",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -660,12 +444,7 @@
                 "format" : "f43",
                 "name" : "Jesper Nordquist Horn",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -674,12 +453,7 @@
                 "format" : "f34",
                 "name" : "Tea Falkenberg",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -688,12 +462,7 @@
                 "format" : "f43",
                 "name" : "Inés L.L. Christiansen",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
             },
             {
                 "url" : "",
@@ -702,12 +471,194 @@
                 "format" : "f34",
                 "name" : "Daniel Bülov",
                 "position" : "Fotograf Elev",
-                "moments" : [
-                    {
-                        "title" : "",
-                        "url" : ""
-                    }
-                ] 
+                "moments" : [] 
+            },
+            {
+                "url" : "",
+                "asset" : "34-daniel-s.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Daniel Svendsen",
+                "position" : "Webudvikler Elev",
+                "moments" : [] 
+            },
+            {
+                "url" : "",
+                "asset" : "34-daniel-s.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Daniel Svendsen",
+                "position" : "Webudvikler Elev",
+                "moments" : [] 
+            },
+            {
+                "url" : "",
+                "asset" : "34-kim-l.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Kim Lerbæk Pedersen",
+                "position" : "Webudvikler Elev",
+                "moments" : [] 
+            },
+            {
+                "url" : "",
+                "asset" : "34-pernille-n.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Pernille Michelle Nielsen",
+                "position" : "Webudvikler Elev",
+                "moments" : [] 
+            },
+            {
+                "url" : "",
+                "asset" : "34-rene.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Rene Rasmus Nielsen",
+                "position" : "Webudvikler Elev",
+                "moments" : [] 
+            },
+            {
+                "url" : "",
+                "asset" : "34-rik.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Rik Gissel",
+                "position" : "Webudvikler Elev",
+                "moments" : [] 
+            },
+            {
+                "url" : "",
+                "asset" : "43-daniel-s.jpg",
+                "id" : "",
+                "format" : "f43",
+                "name" : "Daniel Steenberg",
+                "position" : "Webudvikler Elev",
+                "moments" : [] 
+            },
+            {
+                "url" : "",
+                "asset" : "43-kevin.jpg",
+                "id" : "",
+                "format" : "f43",
+                "name" : "Kevin Foged Therkildsen",
+                "position" : "Webudvikler Elev",
+                "moments" : [] 
+            },
+            {
+                "url" : "",
+                "asset" : "43-maria.jpg",
+                "id" : "",
+                "format" : "f43",
+                "name" : "Maria Husted-Pedersen",
+                "position" : "Webudvikler Elev",
+                "moments" : [] 
+            },
+            {
+                "url" : "",
+                "asset" : "43-mathias.jpg",
+                "id" : "",
+                "format" : "f43",
+                "name" : "Mathias Nowak",
+                "position" : "Webudvikler Elev",
+                "moments" : [] 
+            },
+            {
+                "url" : "",
+                "asset" : "43-tobias.jpg",
+                "id" : "",
+                "format" : "f43",
+                "name" : "Tobias Leth Skov",
+                "position" : "Webudvikler Elev",
+                "moments" : [] 
+            }
+        ]
+    },
+    {
+        "period" : "",
+        "title" : "Lærere og koordinatorer",
+        "theme" : "light",
+        "id" : "slot01",
+        "slots" : [
+            {
+                "url" : "",
+                "asset" : "43-malthe.jpg",
+                "id" : "",
+                "format" : "f43",
+                "name" : "Malthe Alexander Nielsen",
+                "position" : "Webudvikling - Underviser",
+                "moments" : []
+            },
+            {
+                "url" : "",
+                "asset" : "34-jacob-r.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Jacob Christensen Ravn",
+                "position" : "Fotograf - Underviser",
+                "moments" : []
+            },   {
+                "url" : "",
+                "asset" : "34-jorn.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Jørn Ruben Nielsen",
+                "position" : "Webudvikling - Underviser",
+                "moments" : []
+            },
+            {
+                "url" : "",
+                "asset" : "34-kim.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Kim von Domarus",
+                "position" : "Fotograf - Underviser",
+                "moments" : []
+            },
+            {
+                "url" : "",
+                "asset" : "34-lange.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Michael Lange",
+                "position" : "Fotograf - Underviser",
+                "moments" : []
+            },
+            {
+                "url" : "",
+                "asset" : "34-pernille.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Pernille Muhlig",
+                "position" : "Webudvikling - Underviser",
+                "moments" : []
+            },
+            {
+                "url" : "",
+                "asset" : "43-bertel.jpg",
+                "id" : "",
+                "format" : "f43",
+                "name" : "Bertel Stokholm",
+                "position" : "Fotograf - Underviser",
+                "moments" : []
+            },
+            {
+                "url" : "",
+                "asset" : "43-john.jpg",
+                "id" : "",
+                "format" : "f43",
+                "name" : "John Martens",
+                "position" : "Webudvikling - Underviser",
+                "moments" : []
+            },
+            {
+                "url" : "",
+                "asset" : "34-anders-christensen.jpg",
+                "id" : "",
+                "format" : "f43",
+                "name" : "Anders Christensen",
+                "position" : "Webudvikling - Underviser",
+                "moments" : []
             }
         ]
     }

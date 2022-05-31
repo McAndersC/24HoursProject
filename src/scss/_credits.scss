@@ -1,286 +1,161 @@
 .credits-page {
-  background-color: #f86848;
 
+    background-color: #f86848;
+    padding-top: 110px;
+    
+    
+    .h1-fat{
 
-    /* ELEV GRID */
+        font-weight: 300;
 
+    }
 
-    .grid {
-        width: 100%;
-;
-      }
-      
-      /* clearfix */
-      .grid:after {
+    /* clear fix */
+    .grid-credits:after {
         content: '';
         display: block;
         clear: both;
-      }
-      
-      /* ---- grid-item ---- */
-      
-       .grid-sizer, .grid-item {
-        width: 20%;
-      } 
-      
-      .grid-item {
-        height: 100px;
-        float: left;
-        border-color: hsla(0, 0%, 0%, 0.5);
-        transition: 0.5s;
-      }
-    
-      .grid-item img{
-          width: 100%;
-      }
-    
-      .txt-card-bottom{
-        background-color: #f86848;
-          color: white;
-          position: relative;
-          z-index: 100;
-          bottom: 15px;
-          height: 40px;
-          font-size: 0.6rem;
-          font-weight: 300;
-          padding: 0.5rem;
-          text-transform: uppercase;
-      }
-    
-      .name-txt{
-          font-weight: 700;
-      }
-    
-      .elev-txt{
-          font-weight: 300;
-      }
-      /* ELEV GRID END */
-    
-    /* ELEV GRID SMALL FIXES */
-
-
-    .item-19{
-      padding-bottom: 6px;
     }
 
-    .item-36{
-      padding-bottom: 6px;
-    }
-    
-    .item-48{
-      padding-bottom: 6px;
+    .grid-credits-header {
+
+        width: $content-width;
+        margin: auto auto;
+
+        h1 {
+
+            margin: 6vh 0;
+            color: #fff;
+
+        }
+
     }
 
-    
-    
-    
-    /* ELEV GRID SMALL FIXES END */
-    
-    
-    /* GRID HØJDER */
-      .grid-item--height2 {
-           height: 260px;
-    
-    }
-    
-      .grid-item--height4 {
-           height: 420px; 
-    }
-    
-    .mentor{
-      display: none;
-    }
+    .grid-credits-sizer {
 
-    /* GRID HØJDER END */
-    
-    
-    /* GRID LÆRER */
-    
-    .grid1 {
-  
         width: 100%;
+
+    }
+
+    
+    .grid-credits {
+    
+        width: 100%;
+
+    }
+  
+  .grid-credits-item {
+  
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      cursor: pointer;
+      float: left;
+
+      a {
+          color: #fff;
+          padding: 5px 0;
+          display: inline-block;
       }
       
-      /* clearfix */
-      .grid1:after {
-        content: '';
-        display: block;
-        clear: both;
+      &.f34 {
+          height: 560px;
+          img {
+            height: 560px;  
+          }
       }
-      
-      .grid-sizer,
-      .grid-item1 {
-        width: 20%;
-      }
-    
-    
-    .grid-item1 {
-        height: 100px;
-        float: left;
-        border-color: hsla(0, 0%, 0%, 0.5);
+
+      &.f43 {
+        height: 360px;  
+        img {
+            height: 360px;  
+        }
       }
     
-      .grid-item1 img{
+      img {
+
+          display: block;
+          object-fit: cover;
           width: 100%;
+          user-select: none;
+          z-index: 2;
+          transition: transform 3s ease;
       }
-    
-      .grid-item1--height2 {
-        height: 300px;
-    }
-    
-    .grid-item1--height4 {
-        height: 450px; 
-    }
 
-  /* GRID LÆRER END */
+      .grid-item-caption {
+          display: flex;
+          justify-content: left;
+          flex-direction: column;
+          position: absolute;
+          bottom: 0;
+          z-index: 25;
+          width : 100%;
+          background-color: $credits-info-background-color;
+          color:$credits-info-text-color;
+          padding: 10px 10px;
+          height: 58px;
+          transition: height 100ms;
 
-    /* Grid Heights stor skærm  */
-    @media only screen and (min-width: 1600px){
+          &.active {
+            height: 80%;
+          }
+      }
 
-      .grid-item--height2 {
-        height: 333px;
-        padding: 0;
-    
-    }
-    
-    .grid-item--height4 {
-        height: 555px; 
-    }
-    
+      
+      .grid-item-info {
 
-
-    /* Lærer grid stor skærm */
-
-    .grid-item1--height2 {
-      height: 340px;
+        bottom: 0px;
+        transition: bottom 200ms ease-in-out;
+  
+          &.info-time {
+            font-weight: 700;
+            text-transform: uppercase;
+            user-select: none;
+          }
+  
+          &.info-text {
+            color: #fff;
+            user-select: none;
+          }  
+          
+          &.info-moments {
+            margin-top: 10px;
+            user-select: none;
+          }    
+      
+      }
+  }
+ 
+  
+  
+  
+  @media (min-width: $breakpoint_sm) and (max-width: $breakpoint_md) {
+      .grid-credits-sizer {
+          width: 50%
+      }
+      
+      .grid-credits-item {
+          width: 50%;
+      }
   }
   
-  .grid-item1--height4 {
-      height: 550px; 
+  @media (min-width: $breakpoint_md) and (max-width: $breakpoint_lg) {
+      .grid-credits-sizer {
+          width: 33.3%
+      }
+      
+      .grid-credits-item {
+          width: 33.3%;
+      }
   }
-
-
-    }
-    
-    
-    @media only screen and (max-width: 800px) {
-        .grid-sizer,
-        .grid-item {
-          width: 50%;
-        } 
-    
-        .grid-item{
-          padding: 0;
-        }
-        .grid-item1{
-          padding: 0;
-        }
-    
-        .grid-sizer,
-        .grid-item1 {
-          width: 50%;
-        } 
-    
-        *{
-          padding-top: 0;
-        }
-
-        .grid-item--height2 {
-          height: 335px;
-          padding: 0;
-      
-      }
-      
-      .grid-item--height4 {
-          height: 535px; 
-      }
-
-      .item-4{
-        padding-bottom: 2%;
-      }
-
-      .item-6{
-        padding-top: 2%;
-      }
-
-      .item-7{
-        padding-top: 2%;
-      }
-
-      .item-9{
-        padding-top: 1%;
-      }
-
-      .item-31{
-        padding-top: 2%;
-      }
-
-      .item-40{
-        padding-top: 1.3%;
-      }
-
-      .item-41{
-        padding-top: 0.65%;
-      }
-
-      .item-44{
-        padding-top: 2.7%;
-      }
-
-      .item-45{
-        padding-top: 0.7%;
-      }
-
-      .item-48{
-        padding-top: 2.7%;
-      }
-
-      .item-50{
-        padding-top: 0.65%;
-      }
-
-      .item-76{
-        padding-top: 0.8%;
-      }
-
-      .item-80{
-        padding-top: .5%;
-      }
-      
   
-      /* Lærer grid Ipad */
-  
-      .grid-item1--height2 {
-        height: 340px;
-    }
-    
-    .grid-item1--height4 {
-        height: 550px; 
-    }
-        
-    
-    
-    
+  @media (min-width: $breakpoint_lg) {
+      .grid-credits-sizer {
+          width: 20%
       }
-      @media only screen and (max-width: 500px) {
       
-        .grid-sizer,
-        .grid-item {
-          width: 100%;
-        } 
-        .grid-sizer,
-        .grid-item1 {
-          width: 100%;
-        } 
-    
-        .grid-item--height2 {
-          height: 350px;
-    
-        }
-    
-        .grid-item--height4 {
-              height: 550px; 
-        }
-      
+      .grid-credits-item {
+          width: 20%;
       }
+  }
 }
