@@ -484,15 +484,6 @@
             },
             {
                 "url" : "",
-                "asset" : "34-daniel-s.jpg",
-                "id" : "",
-                "format" : "f34",
-                "name" : "Daniel Svendsen",
-                "position" : "Webudvikler Elev",
-                "moments" : [] 
-            },
-            {
-                "url" : "",
                 "asset" : "34-kim-l.jpg",
                 "id" : "",
                 "format" : "f34",
@@ -578,17 +569,8 @@
         "period" : "",
         "title" : "Lærere og koordinatorer",
         "theme" : "light",
-        "id" : "slot01",
+        "id" : "slot02",
         "slots" : [
-            {
-                "url" : "",
-                "asset" : "43-malthe.jpg",
-                "id" : "",
-                "format" : "f43",
-                "name" : "Malthe Alexander Nielsen",
-                "position" : "Webudvikling - Underviser",
-                "moments" : []
-            },
             {
                 "url" : "",
                 "asset" : "34-jacob-r.jpg",
@@ -603,6 +585,14 @@
                 "id" : "",
                 "format" : "f34",
                 "name" : "Jørn Ruben Nielsen",
+                "position" : "Webudvikling - Underviser",
+                "moments" : []
+            },   {
+                "url" : "",
+                "asset" : "43-malthe.jpg",
+                "id" : "",
+                "format" : "f43",
+                "name" : "Malthe Alexander Nielsen",
                 "position" : "Webudvikling - Underviser",
                 "moments" : []
             },
@@ -655,7 +645,7 @@
                 "url" : "",
                 "asset" : "34-anders-christensen.jpg",
                 "id" : "",
-                "format" : "f43",
+                "format" : "f34",
                 "name" : "Anders Christensen",
                 "position" : "Webudvikling - Underviser",
                 "moments" : []
