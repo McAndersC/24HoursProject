@@ -70,7 +70,7 @@ credits.init = async () => {
         
             timelineData.forEach((slot) => {
         
-                console.log('asdasd', slot.id)
+           
                 imagesLoaded( '.' + slot.id, function() {
                     // init Isotope after all images have loaded
                     const prepageMasonry = new Masonry( '.' + slot.id, {
