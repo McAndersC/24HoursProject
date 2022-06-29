@@ -128,8 +128,8 @@ navigation.init = () => {
         navigationContent.innerHTML = `
             <a href="/">Gå til billedoversigten</a>
             <a href="/om/om-one-day-viborg.html">Om projektet ONE DAY VIBORG</a>
-            <a href="/credits/credits.html">Se alle medvirkende i projekt: ONE DAY VIBORG</a>
-            <a href="/historie/det-historiske-perspektiv.html">Det historiske perspektiv</a>
+            <a href="/credits/credits.html">Fotografer, webudviklere og lærere</a>
+            <a href="/historie/det-historiske-perspektiv.html">Viborg for 100 år siden</a>
         `
 
         let currentScrollValue = 0;

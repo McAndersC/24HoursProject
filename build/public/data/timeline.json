@@ -554,13 +554,6 @@
             "time" : "15:30",
             "text" : "Springundervisning med 4 elever"
         },{
-            "url" : "/moments/16-10-ukrainske-flygtninge-besøger-efterskole.html",
-            "asset" : "43-1610-Inna-Signe.jpg",
-            "id" : "16-10-ukrainske-flygtninge-besøger-efterskole",
-            "size" : "height2",
-            "time" : "16:10",
-            "text" : "Ukrainske flygtninge besøger efterskole."
-        },{
             "url" : "/moments/16-11-jma-snedkeri.html",
             "asset" : "43-bastian-ille.jpg",
             "id" : "16-11-jma-snedkeri",
@@ -583,9 +576,9 @@
             "text" : "Far og søn. To firmaer, et værksted"
         },{
             "url" : "/moments/16-36-kunsteren-susanne-ahrenkiel.html",
-            "asset" : "43-rikke-lykk.jpg",
+            "asset" : "34-rikke-lykk.jpg",
             "id" : "16-36-kunsteren-susanne-ahrenkiel",
-            "size" : "height",
+            "size" : "height3",
             "time" : "16:36",
             "text" : "Kunsteren Susanne Ahrenkiel"
         },{
