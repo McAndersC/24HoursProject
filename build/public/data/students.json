@@ -43,6 +43,15 @@
             },
             {
                 "url" : "",
+                "asset" : "34-emma-fisker.jpg",
+                "id" : "",
+                "format" : "f34",
+                "name" : "Emma Haagen Fisker",
+                "position" : "Fotograf Elev",
+                "moments" : []
+            },
+            {
+                "url" : "",
                 "asset" : "34-andreea-matei.jpg",
                 "id" : "",
                 "format" : "f34",

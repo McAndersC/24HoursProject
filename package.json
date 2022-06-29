@@ -9,8 +9,7 @@
     "production-sass": "sass src/scss/main.scss build/public/index.css --style compressed",
     "production-js": "rollup --config --environment NODE_ENV:production",
     "production-build": "concurrently --kill-others \"npm run production-js\" \"npm run production-sass\"",
-    "start-server": "node index",
-    "start-scripting": "concurrently --kill-others \"npm run develop-sass\" \"npm run develop-js\""
+    "start-server": "node index"
   },
   "repository": {
     "type": "git",
